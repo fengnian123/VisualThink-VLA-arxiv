@@ -1,0 +1,48 @@
+\section{Introduction}
+
+
+
+Vision-language-action (VLA) policies map visual observations and language instructions directly to robot actions, enabling general-purpose language-conditioned control across diverse embodiments and tasks \citep{brohan2023rt2,kim24openvla,octo2024,black2024pi0}. Yet direct action prediction can be brittle in manipulation scenarios that require resolving distractors, grounding spatial relations, tracking motion, or maintaining progress over long horizons. To address these challenges, recent work augments VLA policies with intermediate thinking before action prediction, improving robustness under spatial ambiguity and task-level constraints \citep{zawalski2024ecot,duan2025fastecot,chen2025cotvla,zheng2024tracevla,qu2025spatialvla,chen2025internvlam1,yin2025deepthinkvla}.
+
+% These methods show the value of reasoning for embodied control, but also reveal
+Despite their promise, existing reasoning-augmented VLA policies expose an \textbf{accuracy-efficiency trade-off}. Textual chain-of-thought provides an explicit reasoning trace, but its weak visual grounding can distract action prediction and autoregressive decoding incurs substantial latency for closed-loop control \citep{wei2022chain,kojima2022large,jacovi2020towards}. Dense visual or spatial side information stays closer to the scene, but may also introduce interference: redundant channels can overwhelm the action decoder, irrelevant cues can compete with task-critical evidence, and noisy auxiliary perception can propagate conflicting signals. Thus, more reasoning context is not always better for real-time control.
+
+This motivates our central goal: identifying a \emph{minimal yet effective visual reasoning interface} for VLA policies. Here, ``Minimal'' means avoiding long text traces and dense always-on side information, while ``effective'' means preserving the visual structure required for action. Our premise is that embodied reasoning should remain grounded in visual space while exposing only decision-relevant evidence. This is consistent with recent visual-planning results showing that image-based intermediate reasoning can be better suited than text-space planning for spatial decisions \citep{xu2025visual}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{figures/overview.pdf}
+\caption{Overview of \method{}, covering its task coverage, the success-latency trade-off against prior VLA reasoning baselines, and the route-grounded supervision asset built with VisualEvidence-Kit.}
+\label{fig:overview}
+\end{figure}
+
+To turn this motivation into a control interface, we propose \textbf{\method{}} (see \cref{fig:overview}), a sparse visual intermediate-reasoning framework that enables a frozen VLA backbone to \thinkimg{} through routed visual evidence. \method{} serves as a general plug-and-play visual reasoning module for VLA policies, conditioning action decoding with lightweight routed evidence states while leaving the underlying backbone unchanged.
+\method{} first constructs a compact six-channel evidence layer, then uses a task-adaptive orchestration layer to select useful channels at each decision step.  The selected evidence is injected as learned soft states before action decoding, allowing the policy to remain visually grounded while filtering unnecessary or distracting cues and avoiding the latency of autoregressive textual reasoning.
+% This design keeps reasoning visually grounded, filters unnecessary or distracting evidence, and avoids the latency of autoregressive textual reasoning.
+
+
+
+% The next challenge is to make this sparse interface trainable without losing the capacity of richer evidence. 
+To preserve the benefit of richer evidence under sparse inference, \method{} couples task-adaptive routing with dense-to-sparse optimization.
+A task-adaptive router selects which channels to consult, and a routed adapter conditions the frozen backbone on the selected cues, following the broader principle of conditional computation \citep{shazeer2017moe,fedus2022switch}. To stabilize sparse routing, we train the adapter with soft-hard collaborative masks and distillation from \textbf{\fullsoft{}}, a dense teacher that consults all four screened effective evidence channels \citep{hinton2015distilling}. The four-channel teacher is obtained after channel screening removes two low-utility channels, which were found to contribute little utility while increasing latency and interference risk. The sparse policy therefore inherits much of the dense teacher's benefit while reducing active evidence and exposure to irrelevant cues.
+
+
+Because routed evidence should be inspectable rather than merely latent, we further introduce \textbf{VisualEvidence-Kit} for supervision and audit. At its core, a \textbf{VisualEvidence-Agent} extracts channel-level evidence, constructs channel-grounded traces, and incorporates human review to build \textbf{VisualEvidence-Set}. 
+The resulting VisualEvidence-Set contains 754.7k visual-thinking VLA instructions, forming a route-grounded collection that covers task stages, action primitives, evidence dependence, difficulty, and channel-level targets.
+This resource supports route supervision, trace supervision, and counterfactual faithfulness checks without relying on free-form rationales \citep{deyoung2020eraser,jacovi2020towards}.
+
+
+Finally, we evaluate whether this interface improves control while keeping reasoning lightweight. Experiments across real-world manipulation, simulation, long-horizon tasks, and closed-loop robot execution demonstrate that \method{} improves the success-latency trade-off over reasoning-augmented VLA baselines. It brings textual-reasoning latency back to the sub-second control regime, preserves nearly the performance of dense visual evidence while selecting only a small number of channels, and yields routed evidence that is stage-sensitive and behaviorally aligned with policy decisions.
+
+% \noindent\textbf{Contributions.}
+% % \noindent 
+The main contributions are threefold:
+% \begin{enumerate}
+\begin{itemize}[itemsep=0mm,leftmargin=4mm]
+    \item \textbf{A visual intermediate-reasoning interface for frozen VLAs.} We formulate \thinkimg{} as action decoding conditioned on compact routed visual cues rather than long text traces or dense auxiliary perception.
+    \item \textbf{A task-adaptive evidence orchestration mechanism.} \method{} combines channel screening, sparse evidence routing, soft-hard collaborative optimization, and teacher-student distillation to improve the success-latency trade-off while filtering irrelevant channels.
+    \item \textbf{A route-grounded supervision and audit framework.} \textbf{VisualEvidence-Kit} centers on VisualEvidence-Agent, which performs evidence extraction, trace construction, and human review to build VisualEvidence-Set for faithfulness diagnostics.
+\end{itemize}
+% \end{enumerate}
+
+% Method details appear in \Cref{sec:method}, and the full empirical study appears in \Cref{sec:experiments,sec:results,sec:ablations}.

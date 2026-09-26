@@ -1,0 +1,138 @@
+
+\section*{Appendix}
+\label{sec:appendix}
+
+This appendix provides supporting implementation and evaluation details. We document the VisualEvidence-Set governance pipeline, describe the evidence-channel construction, spell out the real-robot task suite, and collect qualitative and audit details.
+
+\section{VisualEvidence-Kit Workflow}
+\label{subsec:VisualEvidence-Kit_Workflow}
+
+The VisualEvidence-Agent builds the VisualEvidence-Set in a staged manner: it first derives the candidate evidence channels from raw observations, then aggregates route targets and utility signals, and finally sends the generated records to a manual review and annotation stage before exporting the governed benchmark entries with channel-grounded trace fields.
+
+\begin{figure}[!t]
+    \centering
+    \includegraphics[width=\columnwidth]{figures/data-sort.pdf}
+    \caption{VisualEvidence-Set governance pipeline for sorting raw traces into progressively stricter subsets.}
+    \label{fig:data_sort}
+\end{figure}
+
+\begin{table}[!t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.18}
+\resizebox{0.8\textwidth}{!}{%
+\begin{tabular}{lrrrrr}
+\toprule
+\textbf{Source} & \textbf{Raw traces} & \textbf{Full-Clean} & \textbf{HQ-Trace} & \textbf{Gold-Faithfulness} & \textbf{Review/drop} \\
+\midrule
+BridgeData V2 & 210,622 & 203,948 & 188,736 & 146,680 & 15,212 \\
+Fractal & 89,675 & 86,104 & 78,442 & 52,318 & 7,662 \\
+LIBERO family & 273,465 & 271,982 & 267,541 & 253,806 & 4,441 \\
+RoboTurk & 7,127 & 6,842 & 6,091 & 4,376 & 751 \\
+UT Austin MUTEX & 361,883 & 354,726 & 336,918 & 297,462 & 17,808 \\
+VIOLA & 64 & 61 & 55 & 48 & 6 \\
+\bottomrule
+\end{tabular}
+}
+\caption{VisualEvidence-Set governance readout. Full-Clean is used for broad statistics and weighted training, HQ-Trace for trace-supervised refinement, and Gold-Faithfulness for high-confidence audit experiments.}
+\label{tab:data_governance}
+\end{table}
+
+\Cref{fig:data_sort,tab:data_governance} summarize how raw route-grounded traces are governed before use. Full-Clean removes invalid or inconsistent records and supports broad dataset statistics and weighted training. HQ-Trace keeps higher-quality channel-grounded traces for trace-supervised refinement. Gold-Faithfulness is the strictest subset and is used for high-confidence counterfactual audit experiments.
+
+\paragraph{Evidence-channel construction.}
+The six-channel candidate bank is extracted offline before policy inference. \textbf{\texttt{bbox}} uses open-vocabulary detection with Grounding DINO / OWL-ViT-style localization to encode coarse object location and target extent \citep{liu2023groundingdino,minderer2022owlvit}. \textbf{\texttt{edge}} uses SAM2 mask proposals and boundary rasterization to capture object contours and local shape discontinuities \citep{ravi2024sam2}. \textbf{\texttt{motion}} uses short-horizon frame differencing over $(x_{t-1}, x_t)$ together with SAM2-based temporal mask propagation and lightweight code-based motion rendering to capture immediate scene change \citep{ravi2024sam2}. \textbf{\texttt{relation}} encodes instruction-grounded spatial geometry with Qwen2.5-VL parsing and deterministic relation rendering, such as left-of, in-front-of, or inside relations \citep{qwen2025qwen25vl}. \textbf{\texttt{depth}} uses Depth Anything V2 to estimate dense monocular depth and pools it into a compact geometry cue \citep{yang2024depthanythingv2}. \textbf{\texttt{segment}} uses detector-prompted SAM2 masks to encode object regions and coarse scene partitioning \citep{liu2023groundingdino,ravi2024sam2}. At policy inference time, \method{} consumes only the compact evidence vectors and the router-selected soft states; no image-editing model is invoked online.
+
+\section{Real-Robot Task Suite}
+\label{subsec:Real-Robot Task Suite}
+
+The main paper reports only the aggregate real-robot result table because the primary point is to compare deployment-time behavior across \basevla{}, \fullsoft{}, and \method{}. This section spells out the tabletop task families behind that summary. The task design follows the mechanism of the method: one family stresses target localization under distractors, one isolates instruction-grounded spatial relations, one emphasizes contact-sensitive pose change, and one tests stage-dependent evidence usage within a short compositional task. \Cref{tab:real_robot_tasks} lists representative instructions for each family.
+
+
+The deployment platform is a desk-mounted \textbf{PIPER NERO (7F)} 7-DoF arm with \textbf{1.5\,kg} payload, \textbf{580\,mm} reach, and \textbf{$\pm 0.1$\,mm} repeatability. The arm is controlled from a host PC through the vendor \textbf{CAN} interface, while RGB observations are captured by a fixed external camera.
+    
+\begin{table}[H]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{10pt}
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Task family} & \textbf{Representative instructions} \\
+\midrule
+Multi-object pick-place & \makecell[l]{Pick the block from the cluttered area and place it into the bowl.} \\
+Relation-sensitive placement & \makecell[l]{Move the block to the left side of the cup and stop there.} \\
+Contact-sensitive reorientation & \makecell[l]{Flip the mug upright and release it once the base is stable.} \\
+Two-stage compositional manipulation & \makecell[l]{Move the block to the drawer area, then open the drawer and finish placement.} \\
+\bottomrule
+\end{tabular}
+\caption{Real-robot task definitions for the tabletop deployment study. Each task family lists two representative instructions; the detailed stressors and success criteria are described in the surrounding text.}
+\label{tab:real_robot_tasks}
+\end{table}
+
+These task definitions make the real-robot section readable without relying on a large qualitative montage.
+
+\section{Qualitative Case Studies}
+\label{subsec:Qualitative Case Studies}
+
+\Cref{fig:case_study} provides qualitative examples of the routed visual evidence used in representative closed-loop cases.
+
+\begin{figure}[!t]
+    \centering
+    \includegraphics[width=\textwidth]{figures/case-study.pdf}
+    \caption{Qualitative case studies of routed visual evidence in representative manipulation tasks.}
+    \label{fig:case_study}
+\end{figure}
+
+The case studies illustrate how routed visual evidence changes action-relevant perception rather than merely adding decoration. In the lever-rotation example, the relation cue makes the target pose explicit: without relation evidence, the base policy rotates in the wrong direction, while the routed policy identifies the lever's orientation relative to the plane and selects the correct downward rotation. In the bowl-placement example, edge evidence sharpens the contact and grasp boundary, helping the policy close on the bowl securely instead of producing an unstable grasp. In the oven-tray example, bbox evidence localizes the handle under visual clutter, preventing early stopping caused by target mislocalization. Across the three cases, the selected channels correspond to the active task demand: relation for pose and spatial orientation, edge for precise contact geometry, and bbox for target localization.
+
+
+\section{VisualEvidence-Kit Audit and Faithfulness Details}
+\label{subsec:VisualEvidence-Kit Audit and Faithfulness Details}
+
+\begin{multicols}{2}
+The main text positions VisualEvidence-Kit as a supervision-and-audit layer rather than another control benchmark. VisualEvidence-Agent builds the VisualEvidence-Set used for the trace-quality summary in \Cref{tab:evidence_trace}, complementing the stage-conditioned routing visualization in the main text.
+
+\columnbreak
+
+\noindent\begin{minipage}{\columnwidth}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+\textbf{Method} & \textbf{Trace} & \textbf{Route} & \textbf{Util.} & \textbf{Sel. ch.} \\
+\midrule
+Prompt-text evidence & 0.391 & \routeno{} & 0.768 & 4.00 \\
+Heavy dense perception & 0.441 & \routeyes{} & 0.755 & 2.24 \\
+\fullsoft{} & 0.791 & \routeyes{} & 0.961 & 4.00 \\
+\method{} & \textbf{0.840} & \routeyes{} & \textbf{0.984} & 2.22 \\
+\bottomrule
+\end{tabular}
+}
+\captionof{table}{VisualEvidence-Kit supervision and audit summary. Here, \emph{Trace} denotes the channel-grounded trace alignment score, \emph{Route} indicates whether explicit route information is exposed, \emph{Util.} denotes utility overlap, and \emph{Sel. ch.} denotes the average number of selected channels.}
+\label{tab:evidence_trace}
+\end{minipage}
+\end{multicols}
+
+Taken together with the routing figure in the main text, \Cref{tab:evidence_trace} gives a fuller account of the audit layer than any single number alone. It summarizes whether the produced traces expose explicit route information and whether the stated evidence overlaps with the most useful channels. The governance taxonomy uses four compact axes: stage, primitive, evidence dependence, and difficulty.
+
+\section{Human Review Protocol}
+
+Human review in VisualEvidence-Kit is used only to check route-grounded records, evidence-channel labels, and trace quality. Reviewers were laboratory students familiar with the robot manipulation setting. They were given task-level guidelines describing the meaning of each evidence channel, the expected route labels, and the intended research use of the reviewed records for VLA supervision, audit, and diagnostic evaluation. No crowdworking platform was used and no monetary payment was provided.
+
+The review process did not collect personal data from reviewers or from external human subjects. The reviewed content consists of robot observations, task instructions, generated evidence labels, and audit fields. Reviewers were informed that the reviewed records would be used for research dataset construction and evaluation. Because the work does not involve human-subject behavioral data, personal information, or intervention with human participants, no separate ethics-board protocol was sought.
+
+
+\section{Artifact Licenses}
+
+We use external datasets, VLA backbones, and perception tools only under their original release conditions. The public robot-learning benchmarks used for evaluation, including BridgeData V2, Open X-Embodiment/Fractal, RoboTurk, LIBERO, and UT Austin MUTEX, are cited in the main experimental section and remain governed by their respective dataset licenses and terms of use. The VLA backbones and comparison systems, including \openvla{}, Octo, SmolVLA, and related reasoning-augmented VLA methods, are used as research artifacts according to the conditions specified by their original authors. The perception back-ends used to construct visual evidence channels, including Grounding DINO, OWL-ViT, SAM2, Qwen2.5-VL, and Depth Anything V2, are likewise cited and used under their original model or code licenses.
+
+Our use of these artifacts is consistent with their intended research use. External datasets are used for benchmark evaluation, VLA backbones are used for policy comparison and adaptation, and perception models are used to derive auxiliary visual evidence for research analysis. VisualEvidence-Kit and VisualEvidence-Set are intended only for VLA supervision, audit, and diagnostic evaluation. Any derivatives should remain within the access conditions of the original datasets and models from which they are derived.
+
+The data used and created in this work consists of robot manipulation observations, task instructions, routed evidence labels, and audit records. We do not collect personal conversations, user profiles, human-subject records, or social-media text, and the VisualEvidence-Set does not contain information intended to name or uniquely identify individual people. We also do not introduce offensive-content annotations or generate offensive textual content as part of the dataset.
+
+\section{AI Assistant Use}
+
+We used AI assistants, including Codex and GPT-5.5, to support manuscript editing, language polishing, and local engineering assistance during paper preparation. 

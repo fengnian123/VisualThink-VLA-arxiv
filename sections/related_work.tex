@@ -1,0 +1,30 @@
+\section{Related Work}
+
+\noindent\textbf{VLA Reasoning Policies.}
+Large-scale robot policies increasingly use language-conditioned sequence models trained on heterogeneous demonstration corpora. Representative VLA systems include \openvla{}, Octo, GR-2, and $\pi_0$ \citep{kim24openvla,octo2024,cheang2024gr2,black2024pi0}, building on broader language-conditioned robot learning over corpora such as Open X-Embodiment and RT-X \citep{openx2023,ahn2022saycan,driess2023palm,brohan2023rt2}. Recent reasoning-augmented VLA methods add explicit intermediate reasoning or stronger grounding, including ECoT for textual reasoning traces and TraceVLA or SpatialVLA for visual or spatial grounding \citep{zawalski2024ecot,zheng2024tracevla,qu2025spatialvla}. These methods show that reasoning can help control, but they also motivate our focus on a minimal visual interface: textual CoT introduces closed-loop latency, while dense visual or spatial side information can introduce irrelevant or redundant evidence.
+
+\begin{table}[H]
+\centering
+\small
+\setlength{\tabcolsep}{7pt}
+\renewcommand{\arraystretch}{1.08}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+\textbf{Method} & \textbf{Location} & \textbf{Boundary / Geometry} & \textbf{Motion History} & \textbf{Relation} & \textbf{Depth} & \textbf{Segmentation} \\
+\midrule
+\openvla{} \citep{kim24openvla} & \routeno{} & \routeno{} & \routeno{} & \routeno{} & \routeno{} & \routeno{} \\
+ECoT \citep{zawalski2024ecot} & \routeyes{} & \routeno{} & \routeno{} & \routeno{} & \routeno{} & \routeno{} \\
+TraceVLA \citep{zheng2024tracevla} & \routeno{} & \routeno{} & \routeyes{} & \routeno{} & \routeno{} & \routeno{} \\
+SpatialVLA \citep{qu2025spatialvla} & \routeno{} & \routeyes{} & \routeno{} & \routeno{} & \routeyes{} & \routeno{} \\
+\rowcolor{tblours}
+\method{} & \routeyes{} & \routeyes{} & \routeyes{} & \routeyes{} & \routeyes{} & \routeyes{} \\
+\bottomrule
+\end{tabular}
+}
+\caption{Explicit visual cues used by representative VLA methods.Depth and segmentation are included in the initial candidate bank but screened out from the default operational setting.}
+\label{tab:visual_cue_compare}
+\end{table}
+
+\noindent\textbf{Visual Evidence and Routing.}
+Object-centric and geometry-aware representations have long been useful for robot learning and visuomotor control \citep{shridhar2022perceiver,zhu2022viola,chi2023diffusion,belkhale2023hydra}. Recent multimodal work extends this object-centric view to broader visual understanding, segmentation, editing, and generation settings \citep{ravi2024sam2,yuan2026lmms,zhong2026unified}. Recent visual-planning work further suggests that image-based intermediate reasoning can be better suited than text-space planning for spatial decisions \citep{xu2025visual}. Video and egocentric benchmarks similarly emphasize that object grounding should account for temporal context, reference granularity, and future state changes \citep{openx2023,yuan2025videorefer,yuan2025eoc}. As summarized in \Cref{tab:visual_cue_compare}, VISUALTHINK-VLA follows this direction by first constructing a six-channel candidate evidence bank and then deploying a compact four-channel operational interface for a frozen VLA backbone. The evidence channels are built from standard perception and vision-language back-ends such as Grounding DINO, SAM2, Qwen2.5-VL, CLIP, ViT, and OWL-ViT \citep{liu2023groundingdino,ravi2024sam2,qwen2025qwen25vl,radford2021learning,dosovitskiy2021image,minderer2022owlvit}. Region-level and spatio-temporal referring work further motivates preserving location and temporal cues as explicit evidence rather than compressing all visual information into a single global representation \citep{minderer2022owlvit,yuan2025pixelrefer}. Its routing mechanism is related to conditional computation, mixture-of-experts models, and dynamic vision-language expert tuning \citep{shazeer2017moe,lepikhin2020gshard,fedus2022switch,zhang2024hyperllava}, while the supervision and audit layer builds on faithfulness and rationale-evaluation work that emphasizes counterfactual validation over free-form explanations \citep{deyoung2020eraser,jacovi2020towards,siegel-etal-2024-probabilities,kamahi-yaghoobzadeh-2024-counterfactuals}.

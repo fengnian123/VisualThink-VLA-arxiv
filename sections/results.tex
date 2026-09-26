@@ -1,0 +1,225 @@
+\section{Results and Analysis}
+\label{sec:results}
+
+% \subsection{Primary Control Comparison}
+
+\begin{table}[H]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2.8pt}
+\renewcommand{\arraystretch}{1.22}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{p{0.18\textwidth}*{16}{c}}
+\toprule
+\textbf{Method} &
+\multicolumn{6}{c}{\hdr{\textbf{Real-World Scenes}}} &
+\multicolumn{6}{c}{\hdr{\textbf{Simulation Scenes}}} &
+\multicolumn{4}{c}{\hdr{\textbf{Long-Horizon Tasks}}} \\
+\cmidrule(lr){2-7}\cmidrule(lr){8-13}\cmidrule(lr){14-17}
+&
+\multicolumn{2}{c}{\textbf{BridgeData V2}} &
+\multicolumn{2}{c}{\textbf{Fractal}} &
+\multicolumn{2}{c}{\textbf{RoboTurk}} &
+\multicolumn{2}{c}{\textbf{LIBERO-Object}} &
+\multicolumn{2}{c}{\textbf{LIBERO-Goal}} &
+\multicolumn{2}{c}{\textbf{LIBERO-Spatial}} &
+\multicolumn{2}{c}{\textbf{LIBERO-Long}} &
+\multicolumn{2}{c}{\textbf{UT Austin MUTEX}} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}\cmidrule(lr){10-11}\cmidrule(lr){12-13}\cmidrule(lr){14-15}\cmidrule(lr){16-17}
+& \textbf{Succ. (\%) $\uparrow$} & \textbf{Lat. (s) $\downarrow$} & \textbf{Succ. (\%) $\uparrow$} & \textbf{Lat. (s) $\downarrow$} & \textbf{Succ. (\%) $\uparrow$} & \textbf{Lat. (s) $\downarrow$} & \textbf{Succ. (\%) $\uparrow$} & \textbf{Lat. (s) $\downarrow$} & \textbf{Succ. (\%) $\uparrow$} & \textbf{Lat. (s) $\downarrow$} & \textbf{Succ. (\%) $\uparrow$} & \textbf{Lat. (s) $\downarrow$} & \textbf{Succ. (\%) $\uparrow$} & \textbf{Lat. (s) $\downarrow$} & \textbf{Succ. (\%) $\uparrow$} & \textbf{Lat. (s) $\downarrow$} \\
+\midrule
+\rowcolor{tblgrouptext}
+\multicolumn{17}{c}{\textit{Textual CoT / autoregressive reasoning before action}} \\
+\textbf{ECoT}
+& 85.09 & 8.377 & 32.87 & 6.702 & 15.78 & 6.397
+& - & - & - & - & - & -
+& - & - & 20.32 & 6.255 \\
+\midrule
+\rowcolor{tblgrouprl}
+\multicolumn{17}{c}{\textit{Reinforced or hybrid thinking-action decoding}} \\
+\textbf{DeepThinkVLA-RL}
+& 27.93 & 1.204 & 33.67 & 1.219 & 2.12 & 1.323
+& \textbf{98.58} & 1.359 & 96.32 & 1.277 & 93.97 & 1.224
+& 95.02 & 1.202 & 26.09 & 0.772 \\
+\midrule
+\rowcolor{tblgroupvisual}
+\multicolumn{17}{c}{\textit{Spatial or image-grounded thinking}} \\
+\textbf{TraceVLA}
+& 86.87 & 0.404 & 86.25 & 0.402 & 93.27 & 0.416
+& 85.68 & 0.425 & 75.24 & 0.407 & 85.90 & 0.428
+& 52.62 & 0.440 & 1.10 & \textbf{0.403} \\
+\textbf{SpatialVLA}
+& 86.57 & 0.589 & 67.85 & 0.582 & 91.50 & 0.585
+& 87.50 & 0.481 & 79.38 & 0.479 & 86.86 & 0.490
+& 53.25 & 0.498 & 0.65 & 0.544 \\
+\textbf{InternVLA-M1}
+& 11.18 & 1.153 & 23.46 & 1.153 & 8.51 & 1.151
+& 96.04 & 1.021 & 92.52 & 1.021 & 92.26 & 1.022
+& 90.65 & 1.021 & 12.37 & 1.144 \\
+\midrule
+\rowcolor{tblgroupmatched}
+\multicolumn{17}{c}{\textit{OpenVLA-family re-evaluation}} \\
+\textbf{\basevla{}} 
+& 75.37 & 0.345 & 87.45 & 0.345 & 95.56 & 0.342
+& 89.30 & 0.343 & 80.83 & 0.343 & 84.60 & 0.342
+& 54.86 & 0.302 & 41.09 & 0.349 \\
+\textbf{\fullsoft{}}
+& 88.45 & 0.447 & 90.38 & 0.448 & 96.32 & 0.445
+& 97.78 & 0.445 & \textbf{97.14} & 0.445 & 96.39 & 0.445
+& \textbf{96.24} & 0.497 & 77.10 & 0.551 \\
+\rowcolor{tblours}
+\textbf{\method{}}
+& \textbf{89.49} & \textbf{0.367} & \textbf{90.82} & \textbf{0.367} & \textbf{96.10} & \textbf{0.415}
+& 97.74 & \textbf{0.385} & 97.05 & \textbf{0.345} & \textbf{96.69} & \textbf{0.356}
+& 95.87 & \textbf{0.421} & \textbf{77.26} & 0.451 \\
+\bottomrule
+\end{tabular}
+}
+\caption{Performance comparison under different datasets. $\uparrow$ indicate higher-is-better metrics, and $\downarrow$ indicate lower-is-better metrics.}
+\label{tab:benchmark_suite}
+\end{table}
+
+\noindent
+\textbf{Primary Control Comparison.}
+\Cref{tab:benchmark_suite} shows that \method{} achieves a favorable accuracy-latency trade-off across diverse control settings. Compared with the matched \basevla{} re-evaluation, \method{} improves success on seven of eight benchmarks, with the largest gains on BridgeData V2, the LIBERO family, and UT Austin MUTEX. It also reduces BridgeData V2 latency from 8.377\,s with ECoT to 0.367\,s while improving success. Compared with the dense \fullsoft{} teacher, \method{} preserves comparable accuracy but reduces latency on every benchmark, suggesting that sparse routed evidence retains most dense-evidence benefits while avoiding unnecessary channel exposure.
+
+\begin{figure}[!t]
+    \centering
+    \includegraphics[width=\textwidth]{figures/benchmark_suite_tradeoff_eigt_red.pdf}
+    \caption{Success-latency trade-off across the eight main benchmarks.}
+    \label{fig:benchmark_tradeoff}
+\end{figure}
+
+\Cref{fig:benchmark_tradeoff} visualizes the same suite as success-latency frontiers. It makes the empirical role of \method{} clearer than success alone: textual reasoning baselines can improve selected tasks but remain far outside the sub-second control regime, while the sparse routed interface stays close to the low-latency OpenVLA-family region and preserves most of the gains of dense visual evidence.
+
+\noindent\textbf{Backbone Portability.}
+\method{} is designed as a routed visual reasoning layer rather than an \openvla{}-specific modification. To test this point, \Cref{tab:backbone_portability} evaluates the same evidence interface on the VisualEvidence-Set test split with three representative VLA base policies that differ in pretraining recipe, action parameterization, and baseline latency.
+
+\begin{table}[H]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.18}
+\resizebox{0.8\textwidth}{!}{%
+\begin{tabular}{p{0.22\textwidth}cccccc}
+\toprule
+\textbf{Backbone} &
+\multicolumn{2}{c}{\hdr{\textbf{Base policy}}} &
+\multicolumn{2}{c}{\hdr{\textbf{+\method{}}}} &
+\multicolumn{2}{c}{\hdr{\textbf{Change}}} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+& \textbf{Succ. (\%)} & \textbf{Lat. (s)} & \textbf{Succ. (\%)} & \textbf{Lat. (s)} & \textbf{$\Delta$Succ.} & \textbf{$\Delta$Lat.} \\
+\midrule
+\openvla{} \citep{kim24openvla} & 76.26 & 0.339 & 92.63 & 0.388 & +16.37 & +0.050 \\
+Octo \citep{octo2024} &  49.52 & 0.606 & 60.39 & 0.683 & +10.87 & +0.077 \\
+SmolVLA \citep{shukor2025smolvla} & 42.73 & 0.248 & 54.68 & 0.352 & +11.95 & +0.104 \\
+\bottomrule
+\end{tabular}
+}
+\caption{Backbone portability study on the VisualEvidence-Set test split across three representative VLA base policies.}
+\label{tab:backbone_portability}
+\end{table}
+
+\Cref{tab:backbone_portability} shows that the test-set gains are preserved across all three backbones with only modest latency increases. This supports the interpretation of \method{} as a general visual reasoning layer for VLA policies rather than an architecture-specific modification that only works with \openvla{}.
+
+
+
+% \subsection{Internal Interface Comparison}
+
+\begin{table}[H]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3.0pt}
+\renewcommand{\arraystretch}{1.18}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{p{0.17\textwidth}p{0.16\textwidth}*{12}{c}}
+\toprule
+\textbf{Variant} & \textbf{Evidence path} &
+\multicolumn{6}{c}{\hdr{\textbf{Real-World Scenes}}} &
+\multicolumn{4}{c}{\hdr{\textbf{Long-Horizon \& Simulation Tasks}}} &
+\multicolumn{2}{c}{\hdr{\textbf{Average}}} \\
+\cmidrule(lr){3-8}\cmidrule(lr){9-12}\cmidrule(lr){13-14}
+&
+& \multicolumn{2}{c}{\textbf{BridgeData V2}}
+& \multicolumn{2}{c}{\textbf{Fractal}}
+& \multicolumn{2}{c}{\textbf{RoboTurk}}
+& \multicolumn{2}{c}{\textbf{LIBERO family}}
+& \multicolumn{2}{c}{\textbf{UT Austin MUTEX}}
+& \textbf{Succ. (\%) $\uparrow$} & \textbf{Lat. (s) $\downarrow$} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}\cmidrule(lr){7-8}\cmidrule(lr){9-10}\cmidrule(lr){11-12}
+& & \textbf{Succ. (\%) $\uparrow$} & \textbf{Lat. (s) $\downarrow$} & \textbf{Succ. (\%) $\uparrow$} & \textbf{Lat. (s) $\downarrow$} & \textbf{Succ. (\%) $\uparrow$} & \textbf{Lat. (s) $\downarrow$} & \textbf{Succ. (\%) $\uparrow$} & \textbf{Lat. (s) $\downarrow$} & \textbf{Succ. (\%) $\uparrow$} & \textbf{Lat. (s) $\downarrow$} & & \\
+\midrule
+\textbf{\basevla{}-only} & none
+& 75.37 & 0.345 & 87.45 & 0.345 & \textbf{96.56} & 0.342 & 77.40 & 0.333 & 41.09 & 0.349 & 75.57 & 0.343 \\
+Prompt-text evidence & prompt text
+& 87.49 & 1.384 & 86.82 & 1.389 & 94.90 & 1.448 & 95.07 & 1.453 & 71.76 & 1.467 & 87.21 & 1.428 \\
+Heavy dense & dense side cue
+& 86.69 & 0.536 & 88.22 & 0.542 & 93.20 & 0.607 & 91.67 & 0.613 & 72.71 & 0.663 & 86.50 & 0.592 \\
+\textbf{\fullsoft{}} & dense soft tokens
+& 88.45 & 0.447 & 90.38 & 0.448 & 96.32 & 0.445 & \textbf{96.89} & 0.458 & 77.10 & 0.551 & 89.83 & 0.470 \\
+\rowcolor{tblours}
+\textbf{\method{}} & routed soft tokens
+& \textbf{89.49} & 0.367 & \textbf{90.82} & 0.367 & \textbf{96.10} & 0.415 & 96.84 & 0.377 & \textbf{77.26} & 0.451 & \textbf{90.10} & 0.395 \\
+\bottomrule
+\end{tabular}
+}
+\caption{Internal interface comparison. $\uparrow$ indicate higher-is-better metrics, and $\downarrow$ indicate lower-is-better metrics.}
+\label{tab:baseline_comparison}
+\end{table}
+
+\noindent\textbf{Internal Interface Comparison.}
+\Cref{tab:baseline_comparison} shows that the gains come from the structured evidence interface rather than simply adding auxiliary signals. Prompt-text evidence improves over \basevla{} but remains slow due to autoregressive token decoding. Heavy dense evidence uses all six candidate channels and incurs higher latency with lower average success. In contrast, \method{} improves over \fullsoft{} in average success (90.10\% vs.\ 89.83\%) while reducing latency from 0.470\,s to 0.395\,s.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/channel_screening_rejection_dashboard.pdf}
+    \caption{Evidence-channel screening for the retained routed evidence bank.}
+    \label{fig:channel_screening}
+\end{figure}
+
+The screening results in \Cref{fig:channel_screening} further show that the initial six-channel bank can be reduced to a four-channel operational subset without losing the main control gains. Dense screened candidates do not justify their extra runtime cost, and prompt-text evidence partially recovers performance but departs from visual intermediate reasoning.
+
+% \subsection{Real-Robot Evaluation}
+
+\begin{table}[H]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{p{0.24\textwidth}p{0.16\textwidth}p{0.16\textwidth}ccc}
+\toprule
+\textbf{Task family} & \textbf{Evidence} & \textbf{Metric} & \textbf{\basevla{}} & \textbf{\fullsoft{}} & \textbf{\method{}} \\
+\midrule
+Multi-object pick-place & \texttt{bbox} + distractors & Success (\%) $\uparrow$ & 48.6 & 73.4 & \textbf{75.6} \\
+Relation-sensitive placement & \texttt{relation} & Success (\%) $\uparrow$ & 45.6 & 63.7 & \textbf{67.2} \\
+Contact-sensitive reorientation & \texttt{edge}/\texttt{motion} & Success (\%) $\uparrow$ & 63.4 & \textbf{85.8} & 83.5 \\
+Two-stage compositional task & stage-wise routing & Success (\%) $\uparrow$ & 26.5 & 57.4 & \textbf{59.2} \\
+All tasks & efficiency & Avg. completion time (s) $\downarrow$ & 22.7 & 30.2 & 25.6 \\
+All tasks & route sparsity & Avg. selected ch. & 0 & 4.0 & 1.83 \\
+\bottomrule
+\end{tabular}
+}
+\caption{Focused real-robot closed-loop evaluation on the four-task tabletop suite. Each task family is evaluated over 50 trials. Up arrows indicate higher-is-better metrics, and down arrows indicate lower-is-better metrics.}
+\label{tab:real_robot}
+\end{table}
+
+\noindent\textbf{Real-Robot Evaluation.}
+\Cref{tab:real_robot} shows that the trade-off transfers to live closed-loop control. \method{} outperforms \basevla{} on all four task families and improves over \fullsoft{} on three of them. The only exception is contact-sensitive reorientation, where always-on four-channel dense evidence is slightly stronger. Nevertheless, \method{} remains more efficient than \fullsoft{} in completion time (25.6\,s vs.\ 30.2\,s) while selecting only 1.83 channels on average.
+
+
+% \subsection{VisualEvidence-Kit Analysis}
+
+
+
+\noindent
+\textbf{VisualEvidence-Kit Analysis.}
+VisualEvidence-Kit tests whether routed evidence is inspectable and behaviorally relevant. On the held-out audit set, \method{} achieves the strongest route-grounded audit score (0.840) and utility overlap (0.984), while prompt-text evidence reaches 0.391 and exposes no visual route. Stage-wise routing is also sensitive to task phase: \texttt{bbox} dominates during \texttt{approach}, \texttt{motion} rises sharply at \texttt{grasp}, and \texttt{edge} remains consistently active.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/routing_stage_sensitivit-before.pdf}
+    \caption{Before-version post-hoc stage-wise routing analysis on VisualEvidence-Set.}
+    \label{fig:routing_sparsity}
+\end{figure}
+
+\Cref{fig:routing_sparsity} reports the full stage-conditioned routing pattern behind these audit results. The figure supports the same conclusion as the aggregate scores: the router does not merely select a fixed shortcut channel, but changes evidence use with the phase of manipulation.

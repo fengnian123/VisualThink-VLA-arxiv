@@ -1,0 +1,17 @@
+\section{Experimental Setup}
+\label{sec:experiments}
+
+\noindent\textbf{Benchmark Roles.}
+The multi-dataset control benchmark evaluates \method{} on \texttt{BridgeData V2}, \texttt{Fractal}, \texttt{RoboTurk}, \texttt{LIBERO}, and \texttt{UT Austin MUTEX} \citep{walke2023bridgedatav2,openx2023,mandlekar2018roboturk,liu2023libero,shah2023mutex}. VisualEvidence-Kit provides the route-grounded audit layer, and the real-robot study evaluates closed-loop deployment on a separate tabletop platform.
+
+\noindent\textbf{Baselines.}
+The external comparisons cover textual traces (ECoT), image-grounded reasoning (TraceVLA, SpatialVLA), and stronger reasoning-policy variants. Within our method family, we report a frozen \basevla{} baseline, a dense \fullsoft{} reference, and the sparse \method{} variant.
+
+\noindent\textbf{Compared Systems.}
+\textbf{\basevla{}-only} runs the frozen pretrained \openvla{} backbone, a 7B-parameter VLA model, with the original image and instruction inputs and no external evidence. \textbf{\fullsoft{}} enables all channels in the four-channel operational bank for every sample. \textbf{\method{}} uses a task-adaptive router to activate only a sparse subset of channels.
+
+\noindent\textbf{Real-Robot Protocol.}
+The real-robot study uses a desk-mounted \textbf{PIPER NERO (7F)} 7-DoF arm with a fixed external RGB camera \citep{kim24openvla,zawalski2024ecot,black2024pi0,black2025pi05,shukor2025smolvla}. The policy predicts end-effector-style actions, and a robot-side controller converts them into executable commands. The task suite covers \textbf{language-specified multi-object pick-place}, \textbf{relation-sensitive placement}, \textbf{contact-sensitive object reorientation}, and \textbf{two-stage compositional manipulation}.
+
+\noindent\textbf{Metrics.}
+The primary control metric is \texttt{success\_rate}. For efficiency, the main benchmark reports \texttt{avg\_step\_latency\_s}, measured as batch-1 wall-clock time from observation and instruction to action output after warm-up. We also report \texttt{avg\_completion\_time\_s} for real-robot evaluation and a route-grounded audit score for VisualEvidence-Kit.

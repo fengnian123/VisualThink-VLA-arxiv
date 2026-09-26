@@ -1,0 +1,132 @@
+<svg width="720" height="430" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 720 430">
+<rect width="720" height="430" x="0" y="0" fill="#fff"></rect>
+<text dominant-baseline="central" text-anchor="start" style="font: italic 12px Times New Roman, Times, serif" xml:space="preserve" y="6" transform="translate(344 136)" fill="#6b7280">default λ = 0.35</text>
+<path d="M78 366.5L638 366.5" fill="none" pointer-events="visible" stroke="#E6EBF2" stroke-width="0.8" stroke-dasharray="3.2,1.6" class="zr2-cls-12"></path>
+<path d="M78 316.5L638 316.5" fill="none" pointer-events="visible" stroke="#E6EBF2" stroke-width="0.8" stroke-dasharray="3.2,1.6" class="zr2-cls-12"></path>
+<path d="M78 266.5L638 266.5" fill="none" pointer-events="visible" stroke="#E6EBF2" stroke-width="0.8" stroke-dasharray="3.2,1.6" class="zr2-cls-12"></path>
+<path d="M78 216.5L638 216.5" fill="none" pointer-events="visible" stroke="#E6EBF2" stroke-width="0.8" stroke-dasharray="3.2,1.6" class="zr2-cls-12"></path>
+<path d="M78 166.5L638 166.5" fill="none" pointer-events="visible" stroke="#E6EBF2" stroke-width="0.8" stroke-dasharray="3.2,1.6" class="zr2-cls-12"></path>
+<path d="M78 116.5L638 116.5" fill="none" pointer-events="visible" stroke="#E6EBF2" stroke-width="0.8" stroke-dasharray="3.2,1.6" class="zr2-cls-12"></path>
+<path d="M78.5 116L78.5 366" fill="none" pointer-events="visible" stroke="#E6EBF2" stroke-width="0.8" stroke-dasharray="3.2,1.6" class="zr2-cls-12"></path>
+<path d="M111.5 116L111.5 366" fill="none" pointer-events="visible" stroke="#E6EBF2" stroke-width="0.8" stroke-dasharray="3.2,1.6" class="zr2-cls-12"></path>
+<path d="M193.5 116L193.5 366" fill="none" pointer-events="visible" stroke="#E6EBF2" stroke-width="0.8" stroke-dasharray="3.2,1.6" class="zr2-cls-12"></path>
+<path d="M275.5 116L275.5 366" fill="none" pointer-events="visible" stroke="#E6EBF2" stroke-width="0.8" stroke-dasharray="3.2,1.6" class="zr2-cls-12"></path>
+<path d="M358.5 116L358.5 366" fill="none" pointer-events="visible" stroke="#E6EBF2" stroke-width="0.8" stroke-dasharray="3.2,1.6" class="zr2-cls-12"></path>
+<path d="M440.5 116L440.5 366" fill="none" pointer-events="visible" stroke="#E6EBF2" stroke-width="0.8" stroke-dasharray="3.2,1.6" class="zr2-cls-12"></path>
+<path d="M522.5 116L522.5 366" fill="none" pointer-events="visible" stroke="#E6EBF2" stroke-width="0.8" stroke-dasharray="3.2,1.6" class="zr2-cls-12"></path>
+<path d="M605.5 116L605.5 366" fill="none" pointer-events="visible" stroke="#E6EBF2" stroke-width="0.8" stroke-dasharray="3.2,1.6" class="zr2-cls-12"></path>
+<path d="M638.5 116L638.5 366" fill="none" pointer-events="visible" stroke="#E6EBF2" stroke-width="0.8" stroke-dasharray="3.2,1.6" class="zr2-cls-12"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Times New Roman, Times, serif;" xml:space="preserve" y="-6" transform="matrix(0,-1,1,0,34,241)" fill="#1f2937">Proxy success rate (%)</text>
+<path d="M78.5 366L78.5 116" fill="none" pointer-events="visible" stroke="#9AA6B2" stroke-width="0.8" stroke-linecap="round" class="zr2-cls-12"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Times New Roman, Times, serif;" xml:space="preserve" y="6" transform="translate(358 404)" fill="#1f2937">Blend coefficient λ</text>
+<path d="M78 366.5L638 366.5" fill="none" pointer-events="visible" stroke="#9AA6B2" stroke-width="0.8" stroke-linecap="round" class="zr2-cls-12"></path>
+<path d="M78 366.5L73 366.5" fill="none" pointer-events="visible" stroke="#9AA6B2" class="zr2-cls-12"></path>
+<path d="M78 316.5L73 316.5" fill="none" pointer-events="visible" stroke="#9AA6B2" class="zr2-cls-12"></path>
+<path d="M78 266.5L73 266.5" fill="none" pointer-events="visible" stroke="#9AA6B2" class="zr2-cls-12"></path>
+<path d="M78 216.5L73 216.5" fill="none" pointer-events="visible" stroke="#9AA6B2" class="zr2-cls-12"></path>
+<path d="M78 166.5L73 166.5" fill="none" pointer-events="visible" stroke="#9AA6B2" class="zr2-cls-12"></path>
+<path d="M78 116.5L73 116.5" fill="none" pointer-events="visible" stroke="#9AA6B2" class="zr2-cls-12"></path>
+<path d="M78.5 366L78.5 371" fill="none" pointer-events="visible" stroke="#9AA6B2" class="zr2-cls-12"></path>
+<path d="M111.5 366L111.5 371" fill="none" pointer-events="visible" stroke="#9AA6B2" class="zr2-cls-12"></path>
+<path d="M193.5 366L193.5 371" fill="none" pointer-events="visible" stroke="#9AA6B2" class="zr2-cls-12"></path>
+<path d="M275.5 366L275.5 371" fill="none" pointer-events="visible" stroke="#9AA6B2" class="zr2-cls-12"></path>
+<path d="M358.5 366L358.5 371" fill="none" pointer-events="visible" stroke="#9AA6B2" class="zr2-cls-12"></path>
+<path d="M440.5 366L440.5 371" fill="none" pointer-events="visible" stroke="#9AA6B2" class="zr2-cls-12"></path>
+<path d="M522.5 366L522.5 371" fill="none" pointer-events="visible" stroke="#9AA6B2" class="zr2-cls-12"></path>
+<path d="M605.5 366L605.5 371" fill="none" pointer-events="visible" stroke="#9AA6B2" class="zr2-cls-12"></path>
+<path d="M638.5 366L638.5 371" fill="none" pointer-events="visible" stroke="#9AA6B2" class="zr2-cls-12"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:Times New Roman, Times, serif;" transform="translate(70 366)" fill="#5f6b7a">86</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:Times New Roman, Times, serif;" transform="translate(70 316)" fill="#5f6b7a">88</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:Times New Roman, Times, serif;" transform="translate(70 266)" fill="#5f6b7a">90</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:Times New Roman, Times, serif;" transform="translate(70 216)" fill="#5f6b7a">92</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:Times New Roman, Times, serif;" transform="translate(70 166)" fill="#5f6b7a">94</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:Times New Roman, Times, serif;" transform="translate(70 116)" fill="#5f6b7a">96</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:Times New Roman, Times, serif;" y="5.5" transform="translate(78 374)" fill="#5f6b7a">0.18</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:Times New Roman, Times, serif;" y="5.5" transform="translate(110.9412 374)" fill="#5f6b7a">0.20</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:Times New Roman, Times, serif;" y="5.5" transform="translate(193.2941 374)" fill="#5f6b7a">0.25</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:Times New Roman, Times, serif;" y="5.5" transform="translate(275.6471 374)" fill="#5f6b7a">0.30</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:Times New Roman, Times, serif;" y="5.5" transform="translate(358 374)" fill="#5f6b7a">0.35</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:Times New Roman, Times, serif;" y="5.5" transform="translate(440.3529 374)" fill="#5f6b7a">0.40</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:Times New Roman, Times, serif;" y="5.5" transform="translate(522.7059 374)" fill="#5f6b7a">0.45</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:Times New Roman, Times, serif;" y="5.5" transform="translate(605.0588 374)" fill="#5f6b7a">0.50</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:Times New Roman, Times, serif;" y="5.5" transform="translate(638 374)" fill="#5f6b7a">0.52</text>
+<g clip-path="url(#zr2-c0)">
+<path d="M110.9 305.3L275.6 290.5L358 279.8L440.4 283L605.1 318" fill="none" pointer-events="visible" stroke="#4C78A8" stroke-width="2.2" stroke-linejoin="bevel" class="zr2-cls-14"></path>
+</g>
+<g clip-path="url(#zr2-c1)">
+<path d="M110.9 192L275.6 194.8L358 168.3L440.4 169.5L605.1 285.3" fill="none" pointer-events="visible" stroke="#D18B2D" stroke-width="2.2" stroke-linejoin="bevel" class="zr2-cls-14"></path>
+</g>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4.5,0,0,4.5,110.9412,305.25)" fill="#4C78A8" stroke="#fff" stroke-width="0.3111111111111111" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr2-cls-15"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4.5,0,0,4.5,275.6471,290.5)" fill="#4C78A8" stroke="#fff" stroke-width="0.3111111111111111" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="zr2-cls-15"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4.5,0,0,4.5,358,279.75)" fill="#4C78A8" stroke="#fff" stroke-width="0.3111111111111111" ecmeta_series_index="0" ecmeta_data_index="2" ecmeta_ssr_type="chart" class="zr2-cls-15"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4.5,0,0,4.5,440.3529,283)" fill="#4C78A8" stroke="#fff" stroke-width="0.3111111111111111" ecmeta_series_index="0" ecmeta_data_index="3" ecmeta_ssr_type="chart" class="zr2-cls-15"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4.5,0,0,4.5,605.0588,318)" fill="#4C78A8" stroke="#fff" stroke-width="0.3111111111111111" ecmeta_series_index="0" ecmeta_data_index="4" ecmeta_ssr_type="chart" class="zr2-cls-15"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4.5,0,0,4.5,110.9412,192)" fill="#D18B2D" stroke="#fff" stroke-width="0.3111111111111111" ecmeta_series_index="1" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr2-cls-16"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4.5,0,0,4.5,275.6471,194.75)" fill="#D18B2D" stroke="#fff" stroke-width="0.3111111111111111" ecmeta_series_index="1" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="zr2-cls-16"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4.5,0,0,4.5,358,168.25)" fill="#D18B2D" stroke="#fff" stroke-width="0.3111111111111111" ecmeta_series_index="1" ecmeta_data_index="2" ecmeta_ssr_type="chart" class="zr2-cls-16"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4.5,0,0,4.5,440.3529,169.5)" fill="#D18B2D" stroke="#fff" stroke-width="0.3111111111111111" ecmeta_series_index="1" ecmeta_data_index="3" ecmeta_ssr_type="chart" class="zr2-cls-16"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4.5,0,0,4.5,605.0588,285.25)" fill="#D18B2D" stroke="#fff" stroke-width="0.3111111111111111" ecmeta_series_index="1" ecmeta_data_index="4" ecmeta_ssr_type="chart" class="zr2-cls-16"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Times New Roman, Times, serif;" y="-5" transform="translate(110.9412 295.05)" fill="#4C78A8">88.43</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Times New Roman, Times, serif;" y="-5" transform="translate(275.6471 280.3)" fill="#4C78A8">89.02</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Times New Roman, Times, serif;" y="-5" transform="translate(358 269.55)" fill="#4C78A8">89.45</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Times New Roman, Times, serif;" y="-5" transform="translate(440.3529 272.8)" fill="#4C78A8">89.32</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Times New Roman, Times, serif;" y="-5" transform="translate(605.0588 307.8)" fill="#4C78A8">87.92</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Times New Roman, Times, serif;" y="5" transform="translate(110.9412 202.2)" fill="#D18B2D">92.96</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Times New Roman, Times, serif;" y="5" transform="translate(275.6471 204.95)" fill="#D18B2D">92.85</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Times New Roman, Times, serif;" y="5" transform="translate(358 178.45)" fill="#D18B2D">93.91</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Times New Roman, Times, serif;" y="5" transform="translate(440.3529 179.7)" fill="#D18B2D">93.86</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Times New Roman, Times, serif;" y="5" transform="translate(605.0588 295.45)" fill="#D18B2D">89.23</text>
+<path d="M-5 -5l202.6 0l0 21l-202.6 0Z" transform="translate(480.42 81)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#b7b9be" stroke-width="0" class="zr2-cls-12"></path>
+<path d="M0 4L16 4" transform="translate(481.42 82.5)" fill="#000" stroke="#4C78A8" stroke-width="2" stroke-linecap="butt" stroke-miterlimit="10" class="zr2-cls-12"></path>
+<path d="M11.2 4A3.2 3.2 0 1 1 11.2 3.7A3.2 3.2 0 0 1 11.2 4" transform="translate(481.42 82.5)" fill="#4C78A8" stroke="#fff" stroke-width="2" stroke-linecap="butt" stroke-miterlimit="10" class="zr2-cls-12"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:11px;font-family:Times New Roman, Times, serif;" xml:space="preserve" x="21" y="4" transform="translate(481.42 82.5)" fill="#6b7280">BridgeData V2</text>
+<path d="M-1 -1.5l93.8 0l0 11l-93.8 0Z" transform="translate(481.42 82.5)" fill="none" pointer-events="visible" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="legend" class="zr2-cls-17"></path>
+<path d="M0 4L16 4" transform="translate(583.25 82.5)" fill="#000" stroke="#D18B2D" stroke-width="2" stroke-linecap="butt" stroke-miterlimit="10" class="zr2-cls-12"></path>
+<path d="M11.2 4A3.2 3.2 0 1 1 11.2 3.7A3.2 3.2 0 0 1 11.2 4" transform="translate(583.25 82.5)" fill="#D18B2D" stroke="#fff" stroke-width="2" stroke-linecap="butt" stroke-miterlimit="10" class="zr2-cls-12"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:11px;font-family:Times New Roman, Times, serif;" x="21" y="4" transform="translate(583.25 82.5)" fill="#6b7280">LIBERO-Long</text>
+<path d="M-1 -1.5l90.7 0l0 11l-90.7 0Z" transform="translate(583.25 82.5)" fill="none" pointer-events="visible" ecmeta_series_index="1" ecmeta_data_index="1" ecmeta_ssr_type="legend" class="zr2-cls-17"></path>
+<path d="M358.5 366L358.5 116" fill="none" pointer-events="visible" stroke="#AEB7C2" stroke-width="1.1" stroke-dasharray="4.4,2.2" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr2-cls-18"></path>
+<path d="M-5 -5l282 0l0 59l-282 0Z" transform="translate(31 23)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#3c3c41" stroke-width="0" class="zr2-cls-12"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:22px;font-family:Times New Roman, Times, serif;font-weight:700;" xml:space="preserve" y="11" transform="translate(31 23)" fill="#1f2937">Blend coefficient sweep</text>
+<path d="M0 32l272 0l0 17l-272 0Z" transform="translate(31 23)" fill="none" pointer-events="visible" class="zr2-cls-12"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:12px;font-family:Times New Roman, Times, serif;" xml:space="preserve" y="40.5" transform="translate(31 23)" fill="#6b7280">Proxy success around the default blend coefficient.</text>
+<defs >
+<clipPath id="zr2-c0">
+<path d="M76 114.9l564 0l0 252.2l-564 0Z" fill="#000" class="zr2-cls-13"></path>
+</clipPath>
+<clipPath id="zr2-c1">
+<path d="M76 114.9l564 0l0 252.2l-564 0Z" fill="#000" class="zr2-cls-13"></path>
+</clipPath>
+</defs>
+<style ><![CDATA[
+.zr2-cls-12:hover {
+pointer-events:none;
+}
+.zr2-cls-13:hover {
+cursor:pointer;
+fill:rgba(0,0,0,1);
+}
+.zr2-cls-14:hover {
+cursor:pointer;
+}
+.zr2-cls-15:hover {
+cursor:pointer;
+fill:rgba(83,132,184,1);
+}
+.zr2-cls-16:hover {
+cursor:pointer;
+fill:rgba(229,152,49,1);
+}
+.zr2-cls-17:hover {
+cursor:pointer;
+fill:rgba(0,0,0,0);
+}
+.zr2-cls-18:hover {
+cursor:pointer;
+stroke-width:3;
+}
+
+]]>
+
+</style>
+</svg>

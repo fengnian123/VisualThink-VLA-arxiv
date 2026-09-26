@@ -1,0 +1,134 @@
+\documentclass[]{fairmeta}
+
+% Additional packages not in fairmeta.cls
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+\usepackage{amsthm}
+\usepackage{comment}
+\usepackage{siunitx}
+\usepackage{pifont}
+\usepackage{adjustbox}
+\usepackage{makecell}
+\usepackage{wrapfig}
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{manyfoot}
+\usepackage[title]{appendix}
+\usepackage{mathrsfs}
+\usepackage{colortbl}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{dblfloatfix}
+\usepackage{capt-of}
+\usepackage{nicefrac}
+\usepackage{multicol}
+
+% Custom commands from the original VisualThink-VLA paper.
+\newcommand{\cmark}{\ding{51}}
+\newcommand{\xmark}{\ding{55}}
+\newcommand{\starmark}{\textsuperscript{\smash{*}}}
+\newcommand{\drop}[1]{\textcolor{gray}{$\downarrow$#1}}
+
+\newcommand{\openvla}{\textsc{OpenVLA}}
+\newcommand{\basevla}{\textsc{BaseVLA}}
+\newcommand{\fullsoft}{\textsc{FullSoft}}
+\newcommand{\dynamicsoft}{\textsc{VisualThink-VLA}}
+\newcommand{\method}{\dynamicsoft}
+\newcommand{\thinkimg}{\emph{think with images}}
+\newcommand{\etal}{\emph{et al.}}
+\newcommand{\routeyes}{\textcolor{green!50!black}{\scriptsize\ding{51}}}
+\newcommand{\routeno}{\textcolor{red!75!black}{\scriptsize\ding{55}}}
+
+\definecolor{tblheader}{RGB}{233,238,245}
+\definecolor{tblsubheader}{RGB}{245,247,250}
+\definecolor{tblours}{RGB}{238,247,238}
+\definecolor{tblreported}{RGB}{244,246,250}
+\definecolor{tblna}{gray}{0.55}
+\definecolor{tblgrouptext}{RGB}{248,242,232}
+\definecolor{tblgrouprl}{RGB}{235,242,249}
+\definecolor{tblgroupvisual}{RGB}{243,239,248}
+\definecolor{tblgroupmatched}{RGB}{242,244,248}
+\newcommand{\hdr}[1]{\colorbox{tblheader}{\strut #1}}
+\newcommand{\na}{\textcolor{tblna}{--}}
+
+% Theorems
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{assumption}[theorem]{Assumption}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+% Title, authors, affiliations in fairmeta format.
+\title{%
+\raisebox{-0.3ex}{\includegraphics[height=0.34in]{figures/logo2.png}}%
+\hspace{0.2em}%
+\raisebox{-0.3ex}{\includegraphics[height=0.28in,width=2.0in]{figures/logo_1.png}}:
+Visual Intermediate Reasoning for Effective and Low-Latency Vision-Language-Action Policies}
+
+\author[1]{Mingjian Gao}
+\author[1,\ddagger]{Wenqiao Zhang}
+\author[1]{Yuqian Yuan}
+\author[1]{Yang Dai}
+\author[1]{Binhe Yu}
+\author[2]{Zheqi Lv}
+\author[1]{Haoyu Zheng}
+\author[3]{Jiaqi Zhu}
+\author[1]{Zhiqi Ge}
+\author[4]{Zixuan Wan}
+\author[1]{Siliang Tang}
+\author[1]{Yueting Zhuang}
+
+\affiliation[1]{Zhejiang University}
+\affiliation[2]{Cornell University}
+\affiliation[3]{National University of Singapore}
+\affiliation[4]{Xi'an University of Electronic Science and Technology}
+
+% \contribution[*]{Equal contribution}
+% \contribution[\dagger]{Project lead}
+\contribution[\ddagger]{Corresponding author}
+
+
+
+\abstract{Recent work has begun to equip vision-language-action (VLA) policies with explicit intermediate reasoning. In embodied control, however, textual chain-of-thought is a poor fit: irrelevant or weakly textual information can interfere with action prediction, while autoregressive text decoding adds too much latency for real-time closed-loop execution.
+We present \textbf{\method{}}, a visual intermediate-reasoning framework for accurate, low-latency VLA policies.
+Our bootstrapping philosophy is to \emph{guide action with effective visual thinking}: \method{} bootstraps action prediction through a compact visual-evidence interface that preserves spatial precision while avoiding decoding overhead.
+Besides, to further improve performance and efficiency, \method{} adopts a tailored selective routing mechanism to learn the visual evidence tokens, enabling low-latency inference while preserving high-capacity specialization. We also introduce \textbf{\texttt{VisualEvidence-Kit}}, a supervision-and-audit resource centered on a \textbf{\texttt{VisualEvidence-Agent}} that constructs a 754.7k VLA instructions \textbf{\texttt{VisualEvidence-Set}} for route supervision and counterfactual faithfulness tests.
+Across multiple benchmarks and real-robot evaluation, \method{} achieves the highest success rate on most benchmarks while reducing the \textbf{multi-second} latency of reasoning-augmented baselines to the \textbf{sub-second} regime. For example, on BridgeData V2, it reduces step latency from 8.377\,s with ECoT to 0.367\,s, achieving a \textbf{22.8$\times$ speedup}.
+
+\par\smallskip\noindent
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{rl}
+    \raisebox{-0.2em}{\includegraphics[height=1.1em]{assets/github-logo.pdf}} &
+    \textbf{GitHub:} \url{https://github.com/DCDmllm/VisualThink-VLA}
+\end{tabular}
+}
+\begin{document}
+
+\maketitle
+
+\input{sections/introduction}
+\input{sections/related_work}
+\input{sections/method}
+\input{sections/experiments}
+\input{sections/results}
+\input{sections/ablations}
+\input{sections/conclusion}
+\input{sections/limitations}
+
+\beginappendix
+\input{sections/appendix}
+
+\bibliographystyle{unsrtnat}
+\bibliography{main}
+
+\end{document}

@@ -1,0 +1,87 @@
+<svg width="920" height="286" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 920 286">
+<rect width="920" height="286" x="0" y="0" fill="#FFFFFF"></rect>
+<path d="M150.5 60L150.5 233" fill="none" pointer-events="visible" stroke="#E8EEF5" stroke-width="0.8" stroke-dasharray="3.2,1.6" class="zr0-cls-0"></path>
+<path d="M220.5 60L220.5 233" fill="none" pointer-events="visible" stroke="#E8EEF5" stroke-width="0.8" stroke-dasharray="3.2,1.6" class="zr0-cls-0"></path>
+<path d="M290.5 60L290.5 233" fill="none" pointer-events="visible" stroke="#E8EEF5" stroke-width="0.8" stroke-dasharray="3.2,1.6" class="zr0-cls-0"></path>
+<path d="M360.5 60L360.5 233" fill="none" pointer-events="visible" stroke="#E8EEF5" stroke-width="0.8" stroke-dasharray="3.2,1.6" class="zr0-cls-0"></path>
+<path d="M430.5 60L430.5 233" fill="none" pointer-events="visible" stroke="#E8EEF5" stroke-width="0.8" stroke-dasharray="3.2,1.6" class="zr0-cls-0"></path>
+<path d="M584.5 60L584.5 233" fill="none" pointer-events="visible" stroke="#E8EEF5" stroke-width="0.8" stroke-dasharray="3.2,1.6" class="zr0-cls-0"></path>
+<path d="M654.5 60L654.5 233" fill="none" pointer-events="visible" stroke="#E8EEF5" stroke-width="0.8" stroke-dasharray="3.2,1.6" class="zr0-cls-0"></path>
+<path d="M724.5 60L724.5 233" fill="none" pointer-events="visible" stroke="#E8EEF5" stroke-width="0.8" stroke-dasharray="3.2,1.6" class="zr0-cls-0"></path>
+<path d="M794.5 60L794.5 233" fill="none" pointer-events="visible" stroke="#E8EEF5" stroke-width="0.8" stroke-dasharray="3.2,1.6" class="zr0-cls-0"></path>
+<path d="M864.5 60L864.5 233" fill="none" pointer-events="visible" stroke="#E8EEF5" stroke-width="0.8" stroke-dasharray="3.2,1.6" class="zr0-cls-0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Times New Roman, Times, serif;" xml:space="preserve" y="6" transform="translate(290 269)" fill="#1F2937">Success change vs. full (pts)</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Times New Roman, Times, serif;" xml:space="preserve" y="6" transform="translate(724 269)" fill="#1F2937">Success change vs. full (pts)</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:Times New Roman, Times, serif;" xml:space="preserve" transform="translate(136 74.4167)" fill="#4B5563">w/o bbox</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:Times New Roman, Times, serif;" xml:space="preserve" transform="translate(136 103.25)" fill="#4B5563">w/o edge</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:Times New Roman, Times, serif;" xml:space="preserve" transform="translate(136 132.0833)" fill="#4B5563">w/o motion</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:Times New Roman, Times, serif;" xml:space="preserve" transform="translate(136 160.9167)" fill="#4B5563">w/o relation</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:Times New Roman, Times, serif;" xml:space="preserve" transform="translate(136 189.75)" fill="#4B5563">only bbox+relation</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:Times New Roman, Times, serif;" xml:space="preserve" transform="translate(136 218.5833)" fill="#4B5563">only edge+motion</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:Times New Roman, Times, serif;" xml:space="preserve" transform="translate(570 74.4167)" fill="#4B5563">w/o bbox</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:Times New Roman, Times, serif;" xml:space="preserve" transform="translate(570 103.25)" fill="#4B5563">w/o edge</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:Times New Roman, Times, serif;" xml:space="preserve" transform="translate(570 132.0833)" fill="#4B5563">w/o motion</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:Times New Roman, Times, serif;" xml:space="preserve" transform="translate(570 160.9167)" fill="#4B5563">w/o relation</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:Times New Roman, Times, serif;" xml:space="preserve" transform="translate(570 189.75)" fill="#4B5563">only bbox+relation</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:Times New Roman, Times, serif;" xml:space="preserve" transform="translate(570 218.5833)" fill="#4B5563">only edge+motion</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:Times New Roman, Times, serif;" y="5.5" transform="translate(150 241)" fill="#5F6B7A">-8</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:Times New Roman, Times, serif;" y="5.5" transform="translate(220 241)" fill="#5F6B7A">-6</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:Times New Roman, Times, serif;" y="5.5" transform="translate(290 241)" fill="#5F6B7A">-4</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:Times New Roman, Times, serif;" y="5.5" transform="translate(360 241)" fill="#5F6B7A">-2</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:Times New Roman, Times, serif;" y="5.5" transform="translate(430 241)" fill="#5F6B7A">0</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:Times New Roman, Times, serif;" y="5.5" transform="translate(584 241)" fill="#5F6B7A">-8</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:Times New Roman, Times, serif;" y="5.5" transform="translate(654 241)" fill="#5F6B7A">-6</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:Times New Roman, Times, serif;" y="5.5" transform="translate(724 241)" fill="#5F6B7A">-4</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:Times New Roman, Times, serif;" y="5.5" transform="translate(794 241)" fill="#5F6B7A">-2</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:11px;font-family:Times New Roman, Times, serif;" y="5.5" transform="translate(864 241)" fill="#5F6B7A">0</text>
+<path d="M430 74.4L325.7 74.4" fill="#000" fill-opacity="0.92" stroke="#5A768F" stroke-width="2.4" stroke-opacity="0.92" stroke-linecap="round" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr0-cls-0"></path>
+<path d="M430 103.3L305.8 103.3" fill="#000" fill-opacity="0.92" stroke="#5A768F" stroke-width="2.4" stroke-opacity="0.92" stroke-linecap="round" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr0-cls-0"></path>
+<path d="M430 132.1L243.5 132.1" fill="#000" fill-opacity="0.92" stroke="#5A768F" stroke-width="2.4" stroke-opacity="0.92" stroke-linecap="round" ecmeta_series_index="0" ecmeta_data_index="2" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr0-cls-0"></path>
+<path d="M430 160.9L253.3 160.9" fill="#000" fill-opacity="0.92" stroke="#5A768F" stroke-width="2.4" stroke-opacity="0.92" stroke-linecap="round" ecmeta_series_index="0" ecmeta_data_index="3" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr0-cls-0"></path>
+<path d="M430 189.8L366 189.8" fill="#000" fill-opacity="0.92" stroke="#5A768F" stroke-width="2.4" stroke-opacity="0.92" stroke-linecap="round" ecmeta_series_index="0" ecmeta_data_index="4" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr0-cls-0"></path>
+<path d="M430 218.6L406.2 218.6" fill="#000" fill-opacity="0.92" stroke="#5A768F" stroke-width="2.4" stroke-opacity="0.92" stroke-linecap="round" ecmeta_series_index="0" ecmeta_data_index="5" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr0-cls-0"></path>
+<path d="M864 74.4L760.8 74.4" fill="#000" fill-opacity="0.92" stroke="#A97A49" stroke-width="2.4" stroke-opacity="0.92" stroke-linecap="round" ecmeta_series_index="3" ecmeta_data_index="0" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr0-cls-0"></path>
+<path d="M864 103.3L697.1 103.3" fill="#000" fill-opacity="0.92" stroke="#A97A49" stroke-width="2.4" stroke-opacity="0.92" stroke-linecap="round" ecmeta_series_index="3" ecmeta_data_index="1" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr0-cls-0"></path>
+<path d="M864 132.1L850 132.1" fill="#000" fill-opacity="0.92" stroke="#A97A49" stroke-width="2.4" stroke-opacity="0.92" stroke-linecap="round" ecmeta_series_index="3" ecmeta_data_index="2" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr0-cls-0"></path>
+<path d="M864 160.9L727.5 160.9" fill="#000" fill-opacity="0.92" stroke="#A97A49" stroke-width="2.4" stroke-opacity="0.92" stroke-linecap="round" ecmeta_series_index="3" ecmeta_data_index="3" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr0-cls-0"></path>
+<path d="M864 189.8L626 189.8" fill="#000" fill-opacity="0.92" stroke="#A97A49" stroke-width="2.4" stroke-opacity="0.92" stroke-linecap="round" ecmeta_series_index="3" ecmeta_data_index="4" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr0-cls-0"></path>
+<path d="M864 218.6L593.4 218.6" fill="#000" fill-opacity="0.92" stroke="#A97A49" stroke-width="2.4" stroke-opacity="0.92" stroke-linecap="round" ecmeta_series_index="3" ecmeta_data_index="5" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr0-cls-0"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(5,0,0,5,325.7,74.4167)" fill="#5A768F" fill-opacity="0.8" stroke="#FFFFFF" stroke-width="0.32" stroke-opacity="0.8" ecmeta_series_index="1" ecmeta_data_index="0" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr0-cls-0"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(5,0,0,5,305.75,103.25)" fill="#5A768F" fill-opacity="0.8" stroke="#FFFFFF" stroke-width="0.32" stroke-opacity="0.8" ecmeta_series_index="1" ecmeta_data_index="1" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr0-cls-0"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(5,0,0,5,243.45,132.0833)" fill="#5A768F" fill-opacity="0.8" stroke="#FFFFFF" stroke-width="0.32" stroke-opacity="0.8" ecmeta_series_index="1" ecmeta_data_index="2" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr0-cls-0"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(5,0,0,5,253.25,160.9167)" fill="#5A768F" fill-opacity="0.8" stroke="#FFFFFF" stroke-width="0.32" stroke-opacity="0.8" ecmeta_series_index="1" ecmeta_data_index="3" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr0-cls-0"></path>
+<path d="M0 -1L1 0L0 1L-1 0Z" transform="matrix(5.5,0,0,5.5,365.95,189.75)" fill="#FFFFFF" fill-opacity="0.8" stroke="#5A768F" stroke-width="0.36363636363636365" stroke-opacity="0.8" ecmeta_series_index="2" ecmeta_data_index="0" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr0-cls-0"></path>
+<path d="M0 -1L1 0L0 1L-1 0Z" transform="matrix(5.5,0,0,5.5,406.2,218.5833)" fill="#FFFFFF" fill-opacity="0.8" stroke="#5A768F" stroke-width="0.36363636363636365" stroke-opacity="0.8" ecmeta_series_index="2" ecmeta_data_index="1" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr0-cls-0"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(5,0,0,5,760.75,74.4167)" fill="#A97A49" fill-opacity="0.8" stroke="#FFFFFF" stroke-width="0.32" stroke-opacity="0.8" ecmeta_series_index="4" ecmeta_data_index="0" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr0-cls-0"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(5,0,0,5,697.05,103.25)" fill="#A97A49" fill-opacity="0.8" stroke="#FFFFFF" stroke-width="0.32" stroke-opacity="0.8" ecmeta_series_index="4" ecmeta_data_index="1" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr0-cls-0"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(5,0,0,5,850,132.0833)" fill="#A97A49" fill-opacity="0.8" stroke="#FFFFFF" stroke-width="0.32" stroke-opacity="0.8" ecmeta_series_index="4" ecmeta_data_index="2" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr0-cls-0"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(5,0,0,5,727.5,160.9167)" fill="#A97A49" fill-opacity="0.8" stroke="#FFFFFF" stroke-width="0.32" stroke-opacity="0.8" ecmeta_series_index="4" ecmeta_data_index="3" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr0-cls-0"></path>
+<path d="M0 -1L1 0L0 1L-1 0Z" transform="matrix(5.5,0,0,5.5,626,189.75)" fill="#FFFFFF" fill-opacity="0.8" stroke="#A97A49" stroke-width="0.36363636363636365" stroke-opacity="0.8" ecmeta_series_index="5" ecmeta_data_index="0" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr0-cls-0"></path>
+<path d="M0 -1L1 0L0 1L-1 0Z" transform="matrix(5.5,0,0,5.5,593.45,218.5833)" fill="#FFFFFF" fill-opacity="0.8" stroke="#A97A49" stroke-width="0.36363636363636365" stroke-opacity="0.8" ecmeta_series_index="5" ecmeta_data_index="1" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr0-cls-0"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:10px;font-family:Times New Roman, Times, serif;" xml:space="preserve" transform="translate(311.9 74.4167)" fill="#5A768F" fill-opacity="0.8">-2.98 pts</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:10px;font-family:Times New Roman, Times, serif;" xml:space="preserve" transform="translate(291.95 103.25)" fill="#5A768F" fill-opacity="0.8">-3.55 pts</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:10px;font-family:Times New Roman, Times, serif;" xml:space="preserve" transform="translate(229.65 132.0833)" fill="#5A768F" fill-opacity="0.8">-5.33 pts</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:10px;font-family:Times New Roman, Times, serif;" xml:space="preserve" transform="translate(239.45 160.9167)" fill="#5A768F" fill-opacity="0.8">-5.05 pts</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:10px;font-family:Times New Roman, Times, serif;" xml:space="preserve" transform="translate(351.45 189.75)" fill="#5A768F" fill-opacity="0.8">-1.83 pts</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:10px;font-family:Times New Roman, Times, serif;" xml:space="preserve" transform="translate(391.7 218.5833)" fill="#5A768F" fill-opacity="0.8">-0.68 pts</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:10px;font-family:Times New Roman, Times, serif;" xml:space="preserve" transform="translate(746.95 74.4167)" fill="#A97A49" fill-opacity="0.8">-2.95 pts</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:10px;font-family:Times New Roman, Times, serif;" xml:space="preserve" transform="translate(683.25 103.25)" fill="#A97A49" fill-opacity="0.8">-4.77 pts</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:10px;font-family:Times New Roman, Times, serif;" xml:space="preserve" transform="translate(836.2 132.0833)" fill="#A97A49" fill-opacity="0.8">-0.40 pts</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:10px;font-family:Times New Roman, Times, serif;" xml:space="preserve" transform="translate(713.7 160.9167)" fill="#A97A49" fill-opacity="0.8">-3.90 pts</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Times New Roman, Times, serif;" xml:space="preserve" transform="translate(642.5 182.75)" fill="#A97A49" fill-opacity="0.8">-6.80 pts</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Times New Roman, Times, serif;" xml:space="preserve" transform="translate(609.95 211.5833)" fill="#A97A49" fill-opacity="0.8">-7.73 pts</text>
+<path d="M-5 -5l148.4 0l0 47l-148.4 0Z" transform="translate(61 15)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#3c3c41" stroke-width="0" class="zr0-cls-0"></path>
+<path d="M-5 -5l143.6 0l0 47l-143.6 0Z" transform="translate(495 15)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#3c3c41" stroke-width="0" class="zr0-cls-0"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:17px;font-family:Liberation Sans, Arial, sans-serif;font-weight:700;" xml:space="preserve" y="8.5" transform="translate(61 15)" fill="#1F2937">(A) BridgeData V2</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Times New Roman, Times, serif;" xml:space="preserve" y="32" transform="translate(61 15)" fill="#6B7280">full = 89.33%</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:17px;font-family:Liberation Sans, Arial, sans-serif;font-weight:700;" xml:space="preserve" y="8.5" transform="translate(495 15)" fill="#1F2937">(B) LIBERO-Long</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Times New Roman, Times, serif;" xml:space="preserve" y="32" transform="translate(495 15)" fill="#6B7280">full = 95.80%</text>
+<style ><![CDATA[
+.zr0-cls-0:hover {
+pointer-events:none;
+}
+
+]]>
+
+</style>
+</svg>

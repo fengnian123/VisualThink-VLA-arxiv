@@ -1,0 +1,394 @@
+<svg width="1600" height="850" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 1600 850">
+<rect width="1600" height="850" x="0" y="0" fill="#fff"></rect>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:27px;font-family:Times New Roman, Times, serif;font-weight:bold;" xml:space="preserve" transform="translate(220 74)" fill="#111827">BridgeData V2</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:27px;font-family:Times New Roman, Times, serif;font-weight:bold;" transform="translate(605 74)" fill="#111827">Fractal</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:27px;font-family:Times New Roman, Times, serif;font-weight:bold;" transform="translate(990 74)" fill="#111827">RoboTurk</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:27px;font-family:Times New Roman, Times, serif;font-weight:bold;" transform="translate(1375 74)" fill="#111827">LIBERO-Object</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:27px;font-family:Times New Roman, Times, serif;font-weight:bold;" transform="translate(220 447)" fill="#111827">LIBERO-Goal</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:27px;font-family:Times New Roman, Times, serif;font-weight:bold;" transform="translate(605 447)" fill="#111827">LIBERO-Spatial</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:27px;font-family:Times New Roman, Times, serif;font-weight:bold;" transform="translate(990 447)" fill="#111827">LIBERO-Long</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:27px;font-family:Times New Roman, Times, serif;font-weight:bold;" xml:space="preserve" transform="translate(1375 447)" fill="#111827">UT Austin MUTEX</text>
+<path d="M74 352.5L370 352.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M74 324.5L370 324.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M74 268.5L370 268.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M74 212.5L370 212.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M74 156.5L370 156.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M74 112.5L370 112.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M455 352.5L755 352.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M455 337.5L755 337.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M455 280.5L755 280.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M455 223.5L755 223.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M455 166.5L755 166.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M455 112.5L755 112.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M840 352.5L1140 352.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M840 306.5L1140 306.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M840 260.5L1140 260.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M840 215.5L1140 215.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M840 169.5L1140 169.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M840 123.5L1140 123.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M840 112.5L1140 112.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M1225 352.5L1525 352.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M1225 316.5L1525 316.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M1225 263.5L1525 263.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M1225 210.5L1525 210.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M1225 156.5L1525 156.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M1225 112.5L1525 112.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M77.1 725.5L370 725.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M77.1 702.5L370 702.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M77.1 647.5L370 647.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M77.1 591.5L370 591.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M77.1 535.5L370 535.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M77.1 485.5L370 485.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M455 725.5L755 725.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M455 697.5L755 697.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M455 656.5L755 656.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M455 615.5L755 615.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M455 574.5L755 574.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M455 533.5L755 533.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M455 492.5L755 492.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M455 485.5L755 485.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M840 725.5L1140 725.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M840 676.5L1140 676.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M840 628.5L1140 628.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M840 579.5L1140 579.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M840 531.5L1140 531.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M840 485.5L1140 485.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M1225 725.5L1525 725.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M1225 719.5L1525 719.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M1225 662.5L1525 662.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M1225 605.5L1525 605.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M1225 548.5L1525 548.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M1225 490.5L1525 490.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M1225 485.5L1525 485.5" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M74.5 112L74.5 352" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M191.5 112L191.5 352" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M370.5 112L370.5 352" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M455.5 112L455.5 352" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M573.5 112L573.5 352" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M755.5 112L755.5 352" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M840.5 112L840.5 352" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M968.5 112L968.5 352" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M1140.5 112L1140.5 352" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M1225.5 112L1225.5 352" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M1445.5 112L1445.5 352" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M1525.5 112L1525.5 352" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M77.5 485L77.5 725" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M267.5 485L267.5 725" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M370.5 485L370.5 725" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M455.5 485L455.5 725" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M664.5 485L664.5 725" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M755.5 485L755.5 725" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M840.5 485L840.5 725" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M1075.5 485L1075.5 725" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M1140.5 485L1140.5 725" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M1225.5 485L1225.5 725" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M1328.5 485L1328.5 725" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<path d="M1525.5 485L1525.5 725" fill="none" pointer-events="visible" stroke="#d9dde5" stroke-dasharray="4,2" class="zr0-cls-0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:23px;font-family:Times New Roman, Times, serif;" xml:space="preserve" y="-11.5" transform="matrix(0,-1,1,0,24,232)" fill="#333">Success rate (%)</text>
+<path d="M74.5 352L74.5 112" fill="none" pointer-events="visible" stroke="#333" stroke-width="1.4" stroke-linecap="round" class="zr0-cls-0"></path>
+<path d="M455.5 352L455.5 112" fill="none" pointer-events="visible" stroke="#333" stroke-width="1.4" stroke-linecap="round" class="zr0-cls-0"></path>
+<path d="M840.5 352L840.5 112" fill="none" pointer-events="visible" stroke="#333" stroke-width="1.4" stroke-linecap="round" class="zr0-cls-0"></path>
+<path d="M1225.5 352L1225.5 112" fill="none" pointer-events="visible" stroke="#333" stroke-width="1.4" stroke-linecap="round" class="zr0-cls-0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:23px;font-family:Times New Roman, Times, serif;" xml:space="preserve" y="-11.5" transform="matrix(0,-1,1,0,24,605)" fill="#333">Success rate (%)</text>
+<path d="M77.5 725L77.5 485" fill="none" pointer-events="visible" stroke="#333" stroke-width="1.4" stroke-linecap="round" class="zr0-cls-0"></path>
+<path d="M455.5 725L455.5 485" fill="none" pointer-events="visible" stroke="#333" stroke-width="1.4" stroke-linecap="round" class="zr0-cls-0"></path>
+<path d="M840.5 725L840.5 485" fill="none" pointer-events="visible" stroke="#333" stroke-width="1.4" stroke-linecap="round" class="zr0-cls-0"></path>
+<path d="M1225.5 725L1225.5 485" fill="none" pointer-events="visible" stroke="#333" stroke-width="1.4" stroke-linecap="round" class="zr0-cls-0"></path>
+<path d="M74 352.5L370 352.5" fill="none" pointer-events="visible" stroke="#333" stroke-width="1.4" stroke-linecap="round" class="zr0-cls-0"></path>
+<path d="M455 352.5L755 352.5" fill="none" pointer-events="visible" stroke="#333" stroke-width="1.4" stroke-linecap="round" class="zr0-cls-0"></path>
+<path d="M840 352.5L1140 352.5" fill="none" pointer-events="visible" stroke="#333" stroke-width="1.4" stroke-linecap="round" class="zr0-cls-0"></path>
+<path d="M1225 352.5L1525 352.5" fill="none" pointer-events="visible" stroke="#333" stroke-width="1.4" stroke-linecap="round" class="zr0-cls-0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:23px;font-family:Times New Roman, Times, serif;" xml:space="preserve" y="11.5" transform="translate(223.53 759)" fill="#333">Avg. step latency (s, log)</text>
+<path d="M77.1 725.5L370 725.5" fill="none" pointer-events="visible" stroke="#333" stroke-width="1.4" stroke-linecap="round" class="zr0-cls-0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:23px;font-family:Times New Roman, Times, serif;" xml:space="preserve" y="11.5" transform="translate(605 759)" fill="#333">Avg. step latency (s, log)</text>
+<path d="M455 725.5L755 725.5" fill="none" pointer-events="visible" stroke="#333" stroke-width="1.4" stroke-linecap="round" class="zr0-cls-0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:23px;font-family:Times New Roman, Times, serif;" xml:space="preserve" y="11.5" transform="translate(990 759)" fill="#333">Avg. step latency (s, log)</text>
+<path d="M840 725.5L1140 725.5" fill="none" pointer-events="visible" stroke="#333" stroke-width="1.4" stroke-linecap="round" class="zr0-cls-0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:23px;font-family:Times New Roman, Times, serif;" xml:space="preserve" y="11.5" transform="translate(1375 759)" fill="#333">Avg. step latency (s, log)</text>
+<path d="M1225 719.5L1525 719.5" fill="none" pointer-events="visible" stroke="#333" stroke-width="1.4" stroke-linecap="round" class="zr0-cls-0"></path>
+<path d="M74 352.5L69 352.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M74 324.5L69 324.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M74 268.5L69 268.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M74 212.5L69 212.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M74 156.5L69 156.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M74 112.5L69 112.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M455 337.5L450 337.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M455 280.5L450 280.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M455 223.5L450 223.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M455 166.5L450 166.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M455 112.5L450 112.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M840 352.5L835 352.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M840 306.5L835 306.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M840 260.5L835 260.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M840 215.5L835 215.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M840 169.5L835 169.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M840 123.5L835 123.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M1225 352.5L1220 352.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M1225 316.5L1220 316.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M1225 263.5L1220 263.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M1225 210.5L1220 210.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M1225 156.5L1220 156.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M1225 112.5L1220 112.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M77.1 725.5L72.1 725.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M77.1 702.5L72.1 702.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M77.1 647.5L72.1 647.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M77.1 591.5L72.1 591.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M77.1 535.5L72.1 535.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M77.1 485.5L72.1 485.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M455 725.5L450 725.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M455 697.5L450 697.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M455 656.5L450 656.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M455 615.5L450 615.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M455 574.5L450 574.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M455 533.5L450 533.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M455 492.5L450 492.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M840 725.5L835 725.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M840 676.5L835 676.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M840 628.5L835 628.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M840 579.5L835 579.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M840 531.5L835 531.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M840 485.5L835 485.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M1225 719.5L1220 719.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M1225 662.5L1220 662.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M1225 605.5L1220 605.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M1225 548.5L1220 548.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M1225 490.5L1220 490.5" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M74.5 352L74.5 357" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M191.5 352L191.5 357" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M370.5 352L370.5 357" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M455.5 352L455.5 357" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M573.5 352L573.5 357" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M755.5 352L755.5 357" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M840.5 352L840.5 357" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M968.5 352L968.5 357" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M1140.5 352L1140.5 357" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M1225.5 352L1225.5 357" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M1445.5 352L1445.5 357" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M1525.5 352L1525.5 357" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M77.5 725L77.5 730" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M267.5 725L267.5 730" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M370.5 725L370.5 730" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M455.5 725L455.5 730" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M664.5 725L664.5 730" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M755.5 725L755.5 730" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M840.5 725L840.5 730" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M1075.5 725L1075.5 730" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M1140.5 725L1140.5 730" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M1225.5 719.3L1225.5 724.3" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M1328.5 719.3L1328.5 724.3" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<path d="M1525.5 719.3L1525.5 724.3" fill="none" pointer-events="visible" stroke="#333" class="zr0-cls-0"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(66 352)" fill="#54555a">10</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(66 324.093)" fill="#54555a">20</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(66 268.2791)" fill="#54555a">40</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(66 212.4651)" fill="#54555a">60</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(66 156.6512)" fill="#54555a">80</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(66 112)" fill="#54555a">96</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(447 337.7143)" fill="#54555a">20</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(447 280.5714)" fill="#54555a">40</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(447 223.4286)" fill="#54555a">60</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(447 166.2857)" fill="#54555a">80</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(447 112)" fill="#54555a">99</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(832 352)" fill="#54555a">0</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(832 306.2857)" fill="#54555a">20</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(832 260.5714)" fill="#54555a">40</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(832 214.8571)" fill="#54555a">60</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(832 169.1429)" fill="#54555a">80</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(832 123.4286)" fill="#54555a">100</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(1217 352)" fill="#54555a">88</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(1217 316.4444)" fill="#54555a">90</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(1217 263.1111)" fill="#54555a">93</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(1217 209.7778)" fill="#54555a">96</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(1217 156.4444)" fill="#54555a">99</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(1217 112)" fill="#54555a">101.5</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(69.06 725)" fill="#54555a">78</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(69.06 702.6744)" fill="#54555a">80</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(69.06 646.8605)" fill="#54555a">85</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(69.06 591.0465)" fill="#54555a">90</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(69.06 535.2326)" fill="#54555a">95</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(69.06 485)" fill="#54555a">99.5</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(447 725)" fill="#54555a">82</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(447 697.5714)" fill="#54555a">84</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(447 656.4286)" fill="#54555a">87</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(447 615.2857)" fill="#54555a">90</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(447 574.1429)" fill="#54555a">93</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(447 533)" fill="#54555a">96</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(447 491.8571)" fill="#54555a">99</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(832 725)" fill="#54555a">50</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(832 676.5152)" fill="#54555a">60</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(832 628.0303)" fill="#54555a">70</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(832 579.5455)" fill="#54555a">80</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(832 531.0606)" fill="#54555a">90</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(832 485)" fill="#54555a">99.5</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(1217 719.2857)" fill="#54555a">0</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(1217 662.1429)" fill="#54555a">20</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(1217 605)" fill="#54555a">40</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(1217 547.8571)" fill="#54555a">60</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:21px;font-family:Times New Roman, Times, serif;" transform="translate(1217 490.7143)" fill="#54555a">80</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:21px;font-family:Times New Roman, Times, serif;" y="10.5" transform="translate(74 360)" fill="#54555a">0.23</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:21px;font-family:Times New Roman, Times, serif;" y="10.5" transform="translate(190.9115 360)" fill="#54555a">1</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:21px;font-family:Times New Roman, Times, serif;" y="10.5" transform="translate(370 360)" fill="#54555a">9.5</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:21px;font-family:Times New Roman, Times, serif;" y="10.5" transform="translate(455 360)" fill="#54555a">0.23</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:21px;font-family:Times New Roman, Times, serif;" y="10.5" transform="translate(573.4914 360)" fill="#54555a">1</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:21px;font-family:Times New Roman, Times, serif;" y="10.5" transform="translate(755 360)" fill="#54555a">9.5</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:21px;font-family:Times New Roman, Times, serif;" y="10.5" transform="translate(840 360)" fill="#54555a">0.23</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:21px;font-family:Times New Roman, Times, serif;" y="10.5" transform="translate(968.0296 360)" fill="#54555a">1</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:21px;font-family:Times New Roman, Times, serif;" y="10.5" transform="translate(1140 360)" fill="#54555a">7.2</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:21px;font-family:Times New Roman, Times, serif;" y="10.5" transform="translate(1225 360)" fill="#54555a">0.23</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:21px;font-family:Times New Roman, Times, serif;" y="10.5" transform="translate(1445.4179 360)" fill="#54555a">1</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:21px;font-family:Times New Roman, Times, serif;" y="10.5" transform="translate(1525 360)" fill="#54555a">1.7</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:21px;font-family:Times New Roman, Times, serif;" y="10.5" transform="translate(77.06 733)" fill="#54555a">0.23</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:21px;font-family:Times New Roman, Times, serif;" y="10.5" transform="translate(267.7161 733)" fill="#54555a">1</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:21px;font-family:Times New Roman, Times, serif;" y="10.5" transform="translate(370 733)" fill="#54555a">2.2</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:21px;font-family:Times New Roman, Times, serif;" y="10.5" transform="translate(455 733)" fill="#54555a">0.23</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:21px;font-family:Times New Roman, Times, serif;" y="10.5" transform="translate(663.8073 733)" fill="#54555a">1</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:21px;font-family:Times New Roman, Times, serif;" y="10.5" transform="translate(755 733)" fill="#54555a">1.9</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:21px;font-family:Times New Roman, Times, serif;" y="10.5" transform="translate(840 733)" fill="#54555a">0.23</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:21px;font-family:Times New Roman, Times, serif;" y="10.5" transform="translate(1075.1305 733)" fill="#54555a">1</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:21px;font-family:Times New Roman, Times, serif;" y="10.5" transform="translate(1140 733)" fill="#54555a">1.5</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:21px;font-family:Times New Roman, Times, serif;" y="10.5" transform="translate(1225 733)" fill="#54555a">0.35</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:21px;font-family:Times New Roman, Times, serif;" y="10.5" transform="translate(1327.7651 733)" fill="#54555a">1</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:21px;font-family:Times New Roman, Times, serif;" y="10.5" transform="translate(1525 733)" fill="#54555a">7.5</text>
+<g clip-path="url(#zr0-c0)">
+<path d="M106.3 169.6L111.2 130.2" fill="none" pointer-events="visible" stroke="#4b5563" stroke-width="1.8" stroke-dasharray="7.2,3.6" stroke-linejoin="bevel" class="zr0-cls-0"></path>
+</g>
+<g clip-path="url(#zr0-c1)">
+<path d="M487.8 145L492.7 135.4" fill="none" pointer-events="visible" stroke="#4b5563" stroke-width="1.8" stroke-dasharray="7.2,3.6" stroke-linejoin="bevel" class="zr0-cls-0"></path>
+</g>
+<g clip-path="url(#zr0-c2)">
+<path d="M1285.1 328.9L1302.2 178.8L1324 178.1L1491.4 156.4" fill="none" pointer-events="visible" stroke="#4b5563" stroke-width="1.8" stroke-dasharray="7.2,3.6" stroke-linejoin="bevel" class="zr0-cls-0"></path>
+</g>
+<g clip-path="url(#zr0-c3)">
+<path d="M128.8 693.4L129.7 512.3L162.7 511.3" fill="none" pointer-events="visible" stroke="#4b5563" stroke-width="1.8" stroke-dasharray="7.2,3.6" stroke-linejoin="bevel" class="zr0-cls-0"></path>
+</g>
+<g clip-path="url(#zr0-c4)">
+<path d="M511.4 689.3L517 523.5" fill="none" pointer-events="visible" stroke="#4b5563" stroke-width="1.8" stroke-dasharray="7.2,3.6" stroke-linejoin="bevel" class="zr0-cls-0"></path>
+</g>
+<g clip-path="url(#zr0-c5)">
+<path d="M883.5 701.4L936.7 502.6L963.2 500.8" fill="none" pointer-events="visible" stroke="#4b5563" stroke-width="1.8" stroke-dasharray="7.2,3.6" stroke-linejoin="bevel" class="zr0-cls-0"></path>
+</g>
+<g clip-path="url(#zr0-c6)">
+<path d="M1224.7 601.9L1249.8 498.5" fill="none" pointer-events="visible" stroke="#4b5563" stroke-width="1.8" stroke-dasharray="7.2,3.6" stroke-linejoin="bevel" class="zr0-cls-0"></path>
+</g>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,100.2621,168.1321)" fill="#737D8C" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-1"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,132.8794,133.9698)" fill="#4C78A8" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="1" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-2"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,367.4537,137.4065)" fill="#D18B2D" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="3" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-3"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,198.2404,306.6428)" fill="#D65F5F" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="4" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-4"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,203.6713,351.4419)" fill="#9C76B7" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="5" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-5"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,474.8004,148.96)" fill="#737D8C" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="7" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-1"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,521.6232,139.8686)" fill="#4C78A8" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="8" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-2"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,734.4338,295.9029)" fill="#D18B2D" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="10" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-3"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,581.8975,303.3371)" fill="#D65F5F" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="11" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-4"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,586.4306,334.6686)" fill="#9C76B7" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="12" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-5"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,860.5973,136.3314)" fill="#737D8C" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="14" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-1"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,911.437,135.8)" fill="#4C78A8" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="15" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-2"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,1137.2545,214.8457)" fill="#D18B2D" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="17" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-3"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,984.8333,260.4057)" fill="#D65F5F" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="18" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-4"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,981.7281,247.96)" fill="#9C76B7" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="19" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-5"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,1278.9497,327.4489)" fill="#737D8C" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="20" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-1"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,1330.1042,179.0333)" fill="#4C78A8" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="21" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-2"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,1483.8632,161.1244)" fill="#D65F5F" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="23" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-4"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,1449.9748,215.9067)" fill="#9C76B7" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="24" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-5"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,122.8159,691.9693)" fill="#737D8C" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="26" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-1"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,168.684,512.2442)" fill="#4C78A8" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="27" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-2"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,292.0438,525.1777)" fill="#D65F5F" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="29" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-4"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,271.831,569.7563)" fill="#9C76B7" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="30" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-5"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,505.2464,687.9029)" fill="#737D8C" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="32" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-1"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,554.954,528.5514)" fill="#4C78A8" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="33" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-2"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,684.9064,565.1086)" fill="#D65F5F" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="35" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-4"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,668.3252,567.2686)" fill="#9C76B7" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="36" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-5"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,877.3464,699.9964)" fill="#737D8C" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="38" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-1"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,969.2958,501.7061)" fill="#4C78A8" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="39" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-2"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,1096.9795,511.4012)" fill="#D65F5F" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="41" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-4"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,1079.8954,534.7491)" fill="#9C76B7" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="42" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-5"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,1226.9384,600.4457)" fill="#737D8C" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="44" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-1"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,1275.5418,499.9)" fill="#4C78A8" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="45" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-2"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,1514.7912,656.1886)" fill="#D18B2D" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="47" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-3"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,1294.8745,649.4229)" fill="#D65F5F" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="48" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-4"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,1340.9682,719.2857)" fill="#9C76B7" fill-opacity="0.8" stroke="#fff" stroke-width="0.13333333333333333" stroke-opacity="0.8" ecmeta_series_index="49" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-5"></path>
+<path d="M-5 -5l1132.4 0l0 34l-1132.4 0Z" transform="translate(238.78 15)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#b7b9be" stroke-width="0" class="zr0-cls-0"></path>
+<path d="M19.5 8.5A8.5 8.5 0 1 1 19.5 7.7A8.5 8.5 0 0 1 19.5 8.5" transform="translate(237.28 18.5)" fill="#737D8C" fill-opacity="0.8" stroke="#fff" stroke-width="2" stroke-opacity="0.8" stroke-linecap="butt" stroke-miterlimit="10" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="legend" ecmeta_silent="true" class="zr0-cls-0"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:24px;font-family:Times New Roman, Times, serif;" x="27" y="8.5" transform="translate(237.28 18.5)" fill="#54555a">BaseVLA</text>
+<path d="M1.5 -3.5l126.1 0l0 24l-126.1 0Z" transform="translate(237.28 18.5)" fill="none" pointer-events="visible" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="legend" class="zr0-cls-6"></path>
+<path d="M19.5 8.5A8.5 8.5 0 1 1 19.5 7.7A8.5 8.5 0 0 1 19.5 8.5" transform="translate(391.34 18.5)" fill="#4C78A8" fill-opacity="0.8" stroke="#fff" stroke-width="2" stroke-opacity="0.8" stroke-linecap="butt" stroke-miterlimit="10" ecmeta_series_index="1" ecmeta_data_index="1" ecmeta_ssr_type="legend" ecmeta_silent="true" class="zr0-cls-0"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:24px;font-family:Times New Roman, Times, serif;" x="27" y="8.5" transform="translate(391.34 18.5)" fill="#54555a">FullSoft</text>
+<path d="M1.5 -3.5l107.1 0l0 24l-107.1 0Z" transform="translate(391.34 18.5)" fill="none" pointer-events="visible" ecmeta_series_index="1" ecmeta_data_index="1" ecmeta_ssr_type="legend" class="zr0-cls-6"></path>
+<path d="M19.5 8.5A8.5 8.5 0 1 1 19.5 7.7A8.5 8.5 0 0 1 19.5 8.5" transform="translate(526.44 18.5)" fill="#C23B3B" fill-opacity="0.8" stroke="#C23B3B" stroke-width="2" stroke-opacity="0.8" stroke-linecap="butt" stroke-miterlimit="10" ecmeta_series_index="2" ecmeta_data_index="2" ecmeta_ssr_type="legend" ecmeta_silent="true" class="zr0-cls-0"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:24px;font-family:Times New Roman, Times, serif;" x="27" y="8.5" transform="translate(526.44 18.5)" fill="#54555a">VisualThink-VLA</text>
+<path d="M1.5 -3.5l203.3 0l0 24l-203.3 0Z" transform="translate(526.44 18.5)" fill="none" pointer-events="visible" ecmeta_series_index="2" ecmeta_data_index="2" ecmeta_ssr_type="legend" class="zr0-cls-6"></path>
+<path d="M19.5 8.5A8.5 8.5 0 1 1 19.5 7.7A8.5 8.5 0 0 1 19.5 8.5" transform="translate(757.78 18.5)" fill="#D18B2D" fill-opacity="0.8" stroke="#fff" stroke-width="2" stroke-opacity="0.8" stroke-linecap="butt" stroke-miterlimit="10" ecmeta_series_index="3" ecmeta_data_index="3" ecmeta_ssr_type="legend" ecmeta_silent="true" class="zr0-cls-0"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:24px;font-family:Times New Roman, Times, serif;" x="27" y="8.5" transform="translate(757.78 18.5)" fill="#54555a">ECoT-OXE</text>
+<path d="M1.5 -3.5l145.7 0l0 24l-145.7 0Z" transform="translate(757.78 18.5)" fill="none" pointer-events="visible" ecmeta_series_index="3" ecmeta_data_index="3" ecmeta_ssr_type="legend" class="zr0-cls-6"></path>
+<path d="M19.5 8.5A8.5 8.5 0 1 1 19.5 7.7A8.5 8.5 0 0 1 19.5 8.5" transform="translate(931.52 18.5)" fill="#D65F5F" fill-opacity="0.8" stroke="#fff" stroke-width="2" stroke-opacity="0.8" stroke-linecap="butt" stroke-miterlimit="10" ecmeta_series_index="4" ecmeta_data_index="4" ecmeta_ssr_type="legend" ecmeta_silent="true" class="zr0-cls-0"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:24px;font-family:Times New Roman, Times, serif;" x="27" y="8.5" transform="translate(931.52 18.5)" fill="#54555a">DeepThinkVLA-RL</text>
+<path d="M1.5 -3.5l226.1 0l0 24l-226.1 0Z" transform="translate(931.52 18.5)" fill="none" pointer-events="visible" ecmeta_series_index="4" ecmeta_data_index="4" ecmeta_ssr_type="legend" class="zr0-cls-6"></path>
+<path d="M19.5 8.5A8.5 8.5 0 1 1 19.5 7.7A8.5 8.5 0 0 1 19.5 8.5" transform="translate(1185.66 18.5)" fill="#9C76B7" fill-opacity="0.8" stroke="#fff" stroke-width="2" stroke-opacity="0.8" stroke-linecap="butt" stroke-miterlimit="10" ecmeta_series_index="5" ecmeta_data_index="5" ecmeta_ssr_type="legend" ecmeta_silent="true" class="zr0-cls-0"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:24px;font-family:Times New Roman, Times, serif;" x="27" y="8.5" transform="translate(1185.66 18.5)" fill="#54555a">InternVLA-M1</text>
+<path d="M1.5 -3.5l174.1 0l0 24l-174.1 0Z" transform="translate(1185.66 18.5)" fill="none" pointer-events="visible" ecmeta_series_index="5" ecmeta_data_index="5" ecmeta_ssr_type="legend" class="zr0-cls-6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,110.1064,123.6874)" fill="#C23B3B" fill-opacity="0.8" stroke="#C23B3B" stroke-width="0.21666666666666667" stroke-opacity="0.8" ecmeta_series_index="2" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-7"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,492.7402,124.9314)" fill="#C23B3B" fill-opacity="0.8" stroke="#C23B3B" stroke-width="0.21666666666666667" stroke-opacity="0.8" ecmeta_series_index="9" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-7"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,891.3097,121.1829)" fill="#C23B3B" fill-opacity="0.8" stroke="#C23B3B" stroke-width="0.21666666666666667" stroke-opacity="0.8" ecmeta_series_index="16" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-7"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,1301.1439,172.3644)" fill="#C23B3B" fill-opacity="0.8" stroke="#C23B3B" stroke-width="0.21666666666666667" stroke-opacity="0.8" ecmeta_series_index="22" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-7"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,128.6802,505.8688)" fill="#C23B3B" fill-opacity="0.8" stroke="#C23B3B" stroke-width="0.21666666666666667" stroke-opacity="0.8" ecmeta_series_index="28" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-7"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,515.9067,517.0571)" fill="#C23B3B" fill-opacity="0.8" stroke="#C23B3B" stroke-width="0.21666666666666667" stroke-opacity="0.8" ecmeta_series_index="34" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-7"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,935.6413,496.12)" fill="#C23B3B" fill-opacity="0.8" stroke="#C23B3B" stroke-width="0.21666666666666667" stroke-opacity="0.8" ecmeta_series_index="40" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-7"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.01" transform="matrix(12,0,0,12,1248.738,492.0629)" fill="#C23B3B" fill-opacity="0.8" stroke="#C23B3B" stroke-width="0.21666666666666667" stroke-opacity="0.8" ecmeta_series_index="46" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-7"></path>
+<defs >
+<clipPath id="zr0-c0">
+<path d="M73 111.1l299 0l0 241.8l-299 0Z" fill="#000" class="zr0-cls-0"></path>
+</clipPath>
+<clipPath id="zr0-c1">
+<path d="M454 111.1l303 0l0 241.8l-303 0Z" fill="#000" class="zr0-cls-0"></path>
+</clipPath>
+<clipPath id="zr0-c2">
+<path d="M1224 111.1l303 0l0 241.8l-303 0Z" fill="#000" class="zr0-cls-0"></path>
+</clipPath>
+<clipPath id="zr0-c3">
+<path d="M76 484.1l296 0l0 241.8l-296 0Z" fill="#000" class="zr0-cls-0"></path>
+</clipPath>
+<clipPath id="zr0-c4">
+<path d="M454 484.1l303 0l0 241.8l-303 0Z" fill="#000" class="zr0-cls-0"></path>
+</clipPath>
+<clipPath id="zr0-c5">
+<path d="M839 484.1l303 0l0 241.8l-303 0Z" fill="#000" class="zr0-cls-0"></path>
+</clipPath>
+<clipPath id="zr0-c6">
+<path d="M1224 484.1l303 0l0 241.8l-303 0Z" fill="#000" class="zr0-cls-0"></path>
+</clipPath>
+</defs>
+<style ><![CDATA[
+.zr0-cls-0:hover {
+pointer-events:none;
+}
+.zr0-cls-1:hover {
+cursor:pointer;
+fill:rgba(126,137,154,1);
+}
+.zr0-cls-2:hover {
+cursor:pointer;
+fill:rgba(83,132,184,1);
+}
+.zr0-cls-3:hover {
+cursor:pointer;
+fill:rgba(229,152,49,1);
+}
+.zr0-cls-4:hover {
+cursor:pointer;
+fill:rgba(235,104,104,1);
+}
+.zr0-cls-5:hover {
+cursor:pointer;
+fill:rgba(171,129,201,1);
+}
+.zr0-cls-6:hover {
+cursor:pointer;
+fill:rgba(0,0,0,0);
+}
+.zr0-cls-7:hover {
+cursor:pointer;
+fill:rgba(213,64,64,1);
+}
+
+]]>
+
+</style>
+</svg>
